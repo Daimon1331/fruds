@@ -1,0 +1,1598 @@
+html *
+    outline: none
+    padding: 0
+    margin: 0
+
+body
+    padding-top: 81px
+    @media screen and (max-width: 991px)
+        padding-top: 67px
+.hidden
+    padding: 0
+a
+    text-decoration: none
+
+a:hover
+    text-decoration: none
+
+img, svg
+    vertical-align: middle
+    max-width: 100%
+
+.margin
+    width: 1140px
+    margin: 0 auto
+    @media screen and (max-width: 1200px)
+        width: 900px
+    @media screen and (max-width: 991px)
+        width: 700px
+    @media screen and (max-width: 740px)
+        width: 500px
+    @media screen and (max-width: 540px)
+        width: 300px
+
+h1, h2, h3, h4, h5, h6, p
+    letter-spacing: 0.2px
+
+h1
+    font-family: 'TTCommons-DemiBold', sans-serif
+    font-size: 26px
+    line-height: 110%
+
+
+h2
+    font-family: 'TTCommons-Bold', sans-serif
+    font-size: 32px
+    line-height: 110%
+    @media screen and (max-width: 540px)
+        font-size: 11px
+        line-height: 110%
+
+h3
+    font-family: 'TTCommons-ExtraBold', sans-serif
+    font-size: 46px
+    line-height: 110%
+    color: $taste
+    @media screen and (max-width: 540px)
+        font-size: 28px
+
+
+h4
+    font-family: 'TTCommons-ExtraBold', sans-serif
+    font-size: 62px
+    line-height: 110%
+    color: $taste
+    text-transform: uppercase
+    @media screen and (max-width: 740px)
+        font-size: 35px!important
+    @media screen and (max-width: 540px)
+        font-size: 28px!important
+
+
+header
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 999
+    transition: .5s
+    background: $header
+    padding: 15px 0
+    .menu-button
+        display: none
+        @media screen and (max-width: 991px)
+            display: block
+    .nav-header
+        width: 50%
+        @media screen and (max-width: 991px)
+            display: none!important
+.nav-header
+    a
+        font-family: 'TTCommons-DemiBold', sans-serif
+        font-size: 18px
+        line-height: 18px
+        color: $taste
+        text-transform: uppercase
+    & a:nth-child(1)
+        text-decoration-line: underline
+        color: $purple
+
+.logo-nav
+    @media screen and (max-width: 991px)
+        width: 74px
+        height: 25px
+
+.mob-nav
+    display: none
+    background: $header
+    color: white
+    width: 100%
+    height: 100vh
+    position: fixed
+    padding: 30px 0 0
+    z-index: 999
+    .nav-header
+        padding-top: 160px
+        a
+            font-size: 18px
+            line-height: 22px
+            margin-bottom: 30px
+
+.smartfood
+    padding-top: 42px
+    position: relative
+    background: $back
+    .yellow
+        position: absolute
+        top: 42px
+        width: 47%
+        height: 672px
+        border-radius: 0 400px 400px 0
+        background: $yellow
+        @media screen and (max-width: 1200px)
+            width: 47%
+        @media screen and (max-width: 991px)
+            display: none
+    .margin
+        position: relative
+        @media screen and (max-width: 991px)
+            flex-direction: column-reverse
+            align-items: center
+    .img-smartfood
+        position: relative
+        width: 315px
+        height: auto
+        @media screen and (max-width: 991px)
+            margin-top: 11px
+            width: 100%
+            text-align: center
+            display: flex
+            flex-direction: column
+            align-items: center
+        .img-smartfood-mob
+            img
+                animation: rotate 1s linear alternate-reverse infinite
+                @keyframes rotate
+                    from
+                        transform: rotate(-5deg)
+                    to
+                        transform: rotate(5deg)
+            @media screen and (max-width: 991px)
+                width: 50%
+                position: relative
+        .min-baner
+            animation: top 1s linear alternate-reverse infinite
+            @keyframes top
+                from
+                    transform: translateY(0)
+                to
+                    transform: translateY(10px)
+        .min-baner
+            position: absolute
+            top: 0
+            left: 84%
+            background-image: url("/img/union.svg")
+            background-position: center
+            background-repeat: no-repeat
+            background-size: contain
+            h1
+                font-family: 'TTCommons-DemiBold', sans-serif
+                font-size: 26px
+                line-height: 110%
+                color: white
+                text-transform: uppercase
+                white-space: pre-wrap
+                padding: 33px 49px 20px
+                width: max-content
+                background: $taste
+                border-radius: 60px
+                margin-bottom: 20px
+                @media screen and (max-width: 740px)
+                    font-size: 18px
+                    padding: 17px 25px 12px
+                    margin-bottom: 12px
+                @media screen and (max-width: 540px)
+                    font-size: 11px
+                    padding: 11px 12px 4px
+                    margin-bottom: 10px
+        a
+            padding: 8px 52px
+            background: $yellow
+            border-radius: 100px
+            font-family: 'TTCommons-DemiBold', sans-serif
+            font-size: 32px
+            line-height: 100%
+            color: $taste
+            text-transform: uppercase
+            text-align: center
+            margin-top: 13px
+            display: none
+            @media screen and (max-width: 991px)
+                display: block
+            @media screen and (max-width: 540px)
+                font-size: 11px
+        .yellow
+            position: absolute
+            border-radius: 500px 500px 0 0
+            background: $yellow
+            display: none
+            @media screen and (max-width: 991px)
+                display: block
+                width: 76%
+                height: 83%
+            @media screen and (max-width: 740px)
+                height: 80%
+            @media screen and (max-width: 740px)
+                height: 73%
+
+
+
+    .logo-desc
+        margin-top: 67px
+        @media screen and (max-width: 1200px)
+            margin-top: 123px
+        @media screen and (max-width: 991px)
+            margin-top: 0
+            width: 100%
+            align-items: center
+        @media screen and (max-width: 740px)
+            margin-top: 0
+            width: 100%
+        h2
+            white-space: pre-wrap
+            text-align: center
+            margin-top: 41px
+            color: $taste
+            @media screen and (max-width: 540px)
+                white-space: normal
+                margin-top: 12px
+        a
+            padding: 25px 45px
+            background: $yellow
+            border-radius: 100px
+            font-family: 'TTCommons-DemiBold', sans-serif
+            font-size: 26px
+            line-height: 28px
+            color: $taste
+            text-transform: uppercase
+            text-align: center
+            margin-top: 58px
+            @media screen and (max-width: 991px)
+                display: none
+
+.smartfood
+    .block-margin
+        margin-top: -100px
+        @media screen and (max-width: 991px)
+            margin-top: 16px
+    .block-ul
+        margin-top: -50px
+        @media screen and (max-width: 1200px)
+            margin: 0
+        @media screen and (max-width: 740px)
+            flex-direction: column
+    .arrow-down
+        background: $header
+        border-radius: 50%
+        width: 118px
+        height: 118px
+        @media screen and (max-width: 540px)
+            width: 40px
+            height: 40px
+    h3
+        margin-top: 14px
+        white-space: pre-wrap
+        text-align: center
+        text-transform: uppercase
+    .left-ul
+        border-radius: 500px 500px 0 0
+        background: $red
+        height: min-content
+        @media screen and (max-width: 740px)
+            width: 100%
+            padding-bottom: 22px
+        p
+            padding: 73px 0 8px
+            @media screen and (max-width: 1200px)
+                padding: 90px 0 8px
+            @media screen and (max-width: 740px)
+                padding: 42px 0 4px
+    p
+        font-family: 'TTCommons-ExtraBold', sans-serif
+        font-size: 100px
+        line-height: 110%
+        color: $pink
+        text-transform: uppercase
+        @media screen and (max-width: 991px)
+            font-size: 70px
+        @media screen and (max-width: 740px)
+            font-size: 48px
+    ul
+        padding: 0 92px 4px 89px
+        @media screen and (max-width: 1200px)
+            padding: 0 20px 4px 20px
+    li
+        font-family: 'CourierNewPS-BoldMT', sans-serif
+        font-size: 18px
+        line-height: 110%
+        color: $pink
+        white-space: pre-wrap
+        padding-bottom:  20px
+        @media screen and (max-width: 991px)
+            font-size: 14px
+        @media screen and (max-width: 740px)
+            font-size: 20px
+            padding-bottom: 15px
+        @media screen and (max-width: 540px)
+            font-size: 13px
+    li:before
+        content: url("/img/checkpink.svg")
+        margin-right: 16px
+    li::marker
+        content: ""
+    .right-ul
+        @media screen and (max-width: 740px)
+            width: 100%
+            margin-top: -74px
+        .img-twofood
+            div
+                margin-left: 50px
+                @media screen and (max-width: 991px)
+                    margin-right: -60px
+                    margin-left: 0
+            & img:nth-child(1)
+                position: relative
+                top: 61px
+                left: 0
+                transform: rotate(-11deg)
+                width: 202px
+                height: 100%!important
+                z-index: 1
+                @media screen and (max-width: 540px)
+                    width: 98px
+            & img:nth-child(2)
+                position: relative
+                top: 0
+                left: -67px
+                width: 203px
+                height: 100%!important
+                transform: rotate(9deg)
+                @media screen and (max-width: 540px)
+                    width: 98px
+                    left: -33px
+                    top: 27px
+        & div:nth-child(2)
+            z-index: 1
+            background: $yellow
+            border-radius: 0 0 500px 500px
+            position: relative
+            margin-top: -171px
+            @media screen and (max-width: 740px)
+                width: 100%
+            @media screen and (max-width: 540px)
+                margin-top: -56px
+            p
+                font-size: 120px
+                -webkit-writing-mode: vertical-rl
+                transform: rotate(180deg)
+                height: min-content
+                color: $taste
+                position: absolute
+                top: 68px
+                left: 69px
+                @media screen and (max-width: 1200px)
+                    left: 7px
+                    top: 25px
+                @media screen and (max-width: 991px)
+                    font-size: 70px
+                @media screen and (max-width: 740px)
+                    left: 22px
+                    top: 111px
+                    font-size: 48px
+            ul
+                padding: 32px 68px 50px 180px
+                @media screen and (max-width: 1200px)
+                    padding: 32px 40px 50px 117px
+                @media screen and (max-width: 991px)
+                    padding: 32px 27px 50px 78px
+                @media screen and (max-width: 740px)
+                    padding: 32px 27px 50px 78px
+            li
+                color: $taste
+                padding-bottom: 20px
+                @media screen and (max-width: 991px)
+                    padding-bottom: 15px
+                @media screen and (max-width: 540px)
+                    white-space: normal
+            li:before
+                content: url("/img/checkteste.svg")
+                margin-right: 16px
+
+
+.cellulose
+    background: $back
+    padding-top: 142px
+    @media screen and (max-width: 991px)
+        padding-top: 35px
+    .margin
+        .slick-prev-slider1-mob, .slick-next-slider1-mob
+            display: none!important
+        .slick-prev-slider1
+            display: none!important
+        .slick-next-slider1
+            z-index: 1
+            width: 90px
+            height: 90px
+            border: none
+            border-radius: 50%
+            background: $red
+            background-image: url("/img/arrow-next.svg")
+            background-repeat: no-repeat
+            background-position: center
+            position: absolute
+            right: 0
+            bottom: 33px
+            @media screen and (max-width: 1200px)
+                bottom: 0
+        p
+            text-align: center
+            font-family: 'TTCommons-Bold', sans-serif
+            line-height: 110%
+            text-transform: uppercase
+            display: flex
+            align-items: center
+            justify-content: center
+            @media screen and (max-width: 1200px)
+                padding: 0 10px
+        .p1
+            font-size: 28px
+            color: white
+            background: $header
+            width: 243px
+            height: 172px
+            margin-bottom: 15px
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 170px
+                height: 100px
+        .img-height
+            @media screen and (max-width: 1200px)
+                height: 269px
+        .p2
+            font-size: 22px
+            color: white
+            background: $brown
+            width: 125px
+            height: 208px
+            margin: 0 0 15px 15px
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 92px
+                height: 142px
+        .p3
+            font-size: 26px
+            color: $taste
+            background: $header
+            border-radius: 0 100px 100px 0
+            width: 335px
+            height: 212px
+            margin: 0 0 0 15px
+            margin-right: -209px
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 254px
+                height: 111px
+        .p4
+            font-size: 24px
+            color: $taste
+            background: $brown
+            width: 194px
+            height: 229px
+            margin: 0 0 15px 15px
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 147px
+                height: 131px
+        .p5
+            font-size: 24px
+            color: $header
+            background: $taste
+            width: 194px
+            height: 152px
+            margin: 0 15px 15px 15px
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 147px
+                height: 112px
+        .p6
+            font-size: 26px
+            color: white
+            background: $header
+            border-radius: 200px 200px 0 0
+            width: 191px
+            height: 319px
+            margin: 0 0 15px 0
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 130px
+                height: 174px
+        .p6+div
+            @media screen and (max-width: 1200px)
+                width: 130px
+        .p7
+            font-size: 22px
+            color: $header
+            background: $taste
+            width: 191px
+            height: 120px
+            margin: 15px 0 0 0
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+                width: 130px
+                height: 76px
+        h4
+            font-size: 62px
+            padding-top: 67px
+            @media screen and (max-width: 1200px)
+                font-size: 48px
+                padding-top: 0
+        .p8
+            font-family: 'CourierNewPS-BoldMT', sans-serif
+            font-size: 18px
+            color: $taste
+            padding-top: 14px
+            text-align: left
+            text-transform: none
+            @media screen and (max-width: 1200px)
+                font-size: 16px
+    .slide2
+        p
+            font-size: 28px
+        .p1
+            color: white
+            background: $header
+            width: 214px
+            height: 490px
+            margin: 15px 0 0 0
+            border-radius: 0 0 200px 200px
+            @media screen and (max-width: 1200px)
+                font-size: 26px
+                width: 178px
+                height: 271px
+        .img-size
+            @media screen and (max-width: 1200px)
+                width: 178px
+        .p2
+            font-size: 36px
+            color: $taste
+            background: $header
+            border-radius: 100px 0 0 100px
+            width: 431px
+            height: 171px
+            margin: 0 0 15px 15px
+            @media screen and (max-width: 1200px)
+                font-size: 25px
+                width: 282px
+                height: 148px
+        .p3
+            color: $header
+            background: $taste
+            border-radius: 0
+            width: 218px
+            height: 437px
+            margin: 0 15px 0 15px
+            @media screen and (max-width: 1200px)
+                font-size: 20px
+                width: 159px
+                height: 220px
+        .p3+div
+            flex: 1
+            img
+                height: 100%
+                @media screen and (max-width: 1200px)
+                    height: 222px
+.slider1
+    @media screen and (max-width: 991px)
+        display: none!important
+.slider1-mob
+    display: none!important
+    @media screen and (max-width: 991px)
+        display: block!important
+    .slide1
+        .col1
+            width: 30%
+        .p6
+            font-size: 20px
+            color: white
+            background: $header
+            border-radius: 200px 200px 0 0
+            //width: 87px
+            width: 100%
+            height: 116px
+            margin: 0 0 7px 0
+            padding-top: 20px
+            @media screen and (max-width: 740px)
+                font-size: 14px
+            @media screen and (max-width: 540px)
+                font-size: 12px
+                padding-top: 0
+        .p6 + div
+            width: auto
+        .p7
+            font-size: 20px
+            color: $header
+            background: $taste
+            //width: 87px
+            width: 100%
+            height: 54px
+            margin: 7px 0 0 0
+            @media screen and (max-width: 740px)
+                font-size: 14px
+            @media screen and (max-width: 540px)
+                font-size: 10px
+                height: 38px
+        .col2
+            width: 70%
+            margin: 0 0 0 7px
+
+        .col3
+            width: 75%
+            margin: 0 7px 7px 0
+            @media screen and (max-width: 540px)
+                width: 56%
+        .col3+div
+            margin-bottom: 7px
+        .p4
+            font-size: 20px
+            color: $taste
+            background: $brown
+            //width: 96px
+            width: 100%
+            height: 99px
+            margin: 0 0 0 0
+            @media screen and (max-width: 740px)
+                font-size: 14px
+                height: 75px
+            @media screen and (max-width: 540px)
+                font-size: 11px
+                height: 78px
+        .p5
+            font-size: 20px
+            color: $header
+            background: $taste
+            //width: 96px
+            width: 100%
+
+            height: 107px
+            margin: 7px 0 0 0
+            @media screen and (max-width: 740px)
+                font-size: 14px
+                height: 67px
+            @media screen and (max-width: 540px)
+                font-size: 11px
+                height: 68px
+        .col4
+            width: 25%
+            @media screen and (max-width: 540px)
+                width: 44%
+        .p3
+            font-size: 20px
+            color: $taste
+            background: $header
+            border-radius: 100px 0 0 100px
+            //width: 175px
+            width: 100%
+            height: 69px
+            margin: 0 0 0 0
+            @media screen and (max-width: 740px)
+                font-size: 14px
+        .p1
+            font-size: 20px
+            color: white
+            background: $header
+            //width: 114px
+            width: 40%
+
+            height: 55px
+            margin: 7px 7px 0 0
+            @media screen and (max-width: 740px)
+                font-size: 14px
+            @media screen and (max-width: 540px)
+                font-size: 11px
+                height: 45px
+        .p2
+            font-size: 20px
+            color: white
+            background: $brown
+            //width: 149px
+            width: 60%
+            height: 55px
+            margin: 7px 0 0 0
+            @media screen and (max-width: 740px)
+                font-size: 14px
+            @media screen and (max-width: 540px)
+                font-size: 11px
+                height: 45px
+        h4
+            font-size: 41px
+            padding-top: 0
+            margin-bottom: -28px
+            @media screen and (max-width: 540px)
+                font-size: 28px
+                margin-bottom: -28px
+        .p8
+            font-size: 16px
+            padding-top: 0
+            text-align: left
+            text-transform: none
+            display: block
+            margin-left: 213px
+            @media screen and (max-width: 740px)
+                font-size: 13px
+                margin-left: 153px
+            @media screen and (max-width: 540px)
+                font-size: 7px
+                margin-left: 88px
+        .mb55
+            margin-bottom: -167px
+            @media screen and (max-width: 740px)
+                margin-bottom: -129px
+            @media screen and (max-width: 540px)
+                margin-bottom: -55px
+        .next-slider1-mob
+            z-index: 1
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            background: $red
+            background-image: url("/img/arrow_right_mob.svg")
+            background-repeat: no-repeat
+            background-position: center
+            position: absolute
+            right: 0
+            top: 89px
+            border: none
+            @media screen and (max-width: 540px)
+                top: 72px
+        .next-slider1-mob:hover
+            border: none
+    .slide2
+        .col1
+            width: 87%
+            @media screen and (max-width: 540px)
+                width: auto
+        .p3
+            font-size: 34px
+            color: $header
+            background: $taste
+            width: 78%
+            height:  204px
+            margin: 0 0 0 7px
+            @media screen and (max-width: 740px)
+                font-size: 19px
+                height: 147px
+            @media screen and (max-width: 540px)
+                font-size: 12px
+                height: 125px
+                width: 125px
+        .col2
+            width: 17%
+            margin: 0 0 0 7px
+            @media screen and (max-width: 540px)
+                width: auto
+        .col3
+            width: 21%
+            @media screen and (max-width: 540px)
+                width: auto
+        .p1
+            font-size: 17px
+            color: white
+            background: $header
+            width: 100%
+            height: 314px
+            margin: 0 0 0 0
+            border-radius: 200px 200px 0 0
+            @media screen and (max-width: 740px)
+                font-size: 12px
+                height: 251px
+            @media screen and (max-width: 540px)
+                height: 170px
+                width: 88px
+        .p1+div
+            margin: 7px 0 0 0
+        .p2
+            font-size: 25px
+            color: $taste
+            background: $header
+            //width: 177px
+            width: 100%
+            height: 93px
+            margin: 7px 0 0 0
+            border-radius: 100px 0 0 100px
+            @media screen and (max-width: 740px)
+                font-size: 20px
+            @media screen and (max-width: 540px)
+                font-size: 12px
+        h4
+            font-size: 41px
+            padding-top: 0
+            text-align: right
+            @media screen and (max-width: 740px)
+        .p8
+            font-size: 16px
+            padding-top: 0
+            text-transform: none
+            display: block
+            margin-right: 116px
+            text-align: right
+            @media screen and (max-width: 740px)
+                font-size: 13px
+                margin-right: 94px
+            @media screen and (max-width: 540px)
+                font-size: 7px
+        .mb97
+            margin-bottom: -212px
+            @media screen and (max-width: 740px)
+                margin-bottom: -135px
+            @media screen and (max-width: 540px)
+                margin-bottom: -84px
+        .prev-slider1-mob
+            z-index: 1
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            background: $red
+            background-image: url("/img/arrow_left_mob.svg")
+            background-repeat: no-repeat
+            background-position: center
+            position: absolute
+            left: 0
+            top: 89px
+            border: none
+            @media screen and (max-width: 540px)
+                top: 72px
+        .prev-slider1-mob:hover
+            border: none
+
+
+
+.comparison
+    background: $back
+    padding: 200px 0 120px
+    @media screen and (max-width: 991px)
+        padding: 35px 0
+    h4
+        text-align: center
+        span
+            text-transform: none
+    .advantages
+        .img-advantage
+            background: white
+            border-radius: 50%
+            width: 85px
+            height: 85px
+            margin: -7px 0 -27px
+            display: flex
+            justify-content: center
+            align-items: center
+            z-index: 1
+            img
+                width: 70%
+                height: 70%
+            @media screen and (max-width: 740px)
+                margin: -8px 0 -14px
+            @media screen and (max-width: 540px)
+                width: 35px
+                height: 35px
+                margin: -2px 0 -14px
+        .advantage
+            background: $header
+            border-radius: 100px
+            padding: 18px 26px 18px 41px
+            width: 100%
+            @media screen and (max-width: 540px)
+                padding: 18px 10px 18px 17px
+            & div:nth-child(1)
+                @media screen and (max-width: 540px)
+                    width: 17px
+                    height: auto
+            & div:nth-child(3)
+                @media screen and (max-width: 540px)
+                    width: 31px
+                    height: auto
+            p
+                font-family: 'CourierNewPS-BoldMT', sans-serif
+                font-size: 20px
+                line-height: 110%
+                color: $taste
+                text-align: center
+                @media screen and (max-width: 540px)
+                    font-size: 9px
+
+.hide
+    display: none!important
+.show
+    display: inline-block!important
+.resize
+    width: 580px!important
+    //height: 751px!important
+    @media screen and (max-width: 991px)
+        width: 532px!important
+        //height: 723px!important
+    @media screen and (max-width: 540px)
+        width: 300px!important
+
+.choose
+    background: $taste
+    text-align: center
+    button
+        border: none
+    button:hover
+        border: none
+    .bottlesvg
+        display: none
+    .fruct
+        z-index: 1
+        display: none
+    h4
+        color: $back
+        font-size: 96px
+        line-height: 110%
+        text-transform: uppercase
+        padding: 98px 0
+        @media screen and (max-width: 740px)
+            padding: 32px 0
+    .box-slider2
+        padding: 92px 0 136px
+        text-align: left
+        background: $back
+        @media screen and (max-width: 991px)
+            padding: 50px 0 50px
+        .margin
+            @media screen and (max-width: 991px)
+                width: 100%
+        .slider2
+            .slider-dots
+                display: flex
+                justify-content: center
+                margin-top: 30px
+                .slick-active
+                    filter: none
+                    button
+                        width: 25px
+                        height: 25px
+                .slick-active:nth-child(1)
+                    button
+                        border: 6px solid #F6BEBE
+                        background: $red
+                .slick-active:nth-child(2)
+                    button
+                        border: 6px solid $header
+                        background: $green
+                .slick-active:nth-child(3)
+                    button
+                        border: 6px solid $birusa
+                        background: $red
+                .slick-active:nth-child(4)
+                    button
+                        border: 6px solid $yellow
+                        background: $green
+                li
+                    list-style: none
+                    button
+                        border-radius: 50%
+                        font-size: 0
+                        width: 25px
+                        height: 25px
+                        border: 6px solid $back
+                        background: #c4c4c4
+                        transition: 0.5s
+                        margin-right: 42px
+                    button:hover
+                        border: 0 solid transparent
+                    button:focus
+                        outline: none
+                        box-shadow: none
+                li:last-child
+                    button
+                        margin-right: 0
+                .back-taste
+                    background-color: $taste!important
+            .next-slider2
+                z-index: 1
+                width: 90px
+                height: 90px
+                border-radius: 50%
+                background: $red
+                background-image: url("/img/arrow-next.svg")
+                background-repeat: no-repeat
+                background-position: center
+                position: absolute
+                right: 0
+                top: 460px
+                @media screen and (max-width: 1200px)
+                    width: 70px
+                    height: 70px
+                @media screen and (max-width: 991px)
+                    display: none!important
+            .slick-prev-slider2, .slick-next-slider2
+                display: none!important
+
+        .big-img
+            width: 532px
+            //height: 723px
+            z-index: 1
+            @media screen and (max-width: 991px)
+                margin-top: -150px
+            @media screen and (max-width: 540px)
+                width: 300px
+                margin-top: -80px
+            //img
+            //    position: absolute
+            .apple-radius, .button-hidden
+                width: 118px
+                height: 118px
+                background: $red
+                border-radius: 50%
+                display: flex
+                justify-content: center
+                align-items: center
+                position: absolute
+                top: 47px
+                left: 14px
+                z-index: 2
+                animation: scale 1s linear alternate-reverse infinite
+                -webkit-animation: scale 1s linear 0.01s alternate-reverse infinite
+                @keyframes scale
+                    //from
+                    //    -webkit-transform: scale(1)
+                    //    transform: scale(1)
+                    to
+                        -webkit-transform: scale(1.2)
+                        transform: scale(1.2)
+                @media screen and (max-width: 540px)
+                @-webkit-keyframes scale
+                    //from
+                    //    -webkit-transform: scale(1)
+                    to
+                        -webkit-transform: scale(1.2)
+                @media screen and (max-width: 540px)
+                    width: 60px
+                    height: 60px
+                    img:nth-child(1)
+                        width: 32px
+                    img:nth-child(2)
+                        width: 21px
+            .button-hidden
+                display: none
+            .img-position
+                & img:nth-child(1)
+                    top: 0
+                    left: 108px
+                    z-index: 2
+                    img
+                        position: static
+                        width: auto
+                & img:nth-child(2)
+                    top: 76px
+                    left: 36px
+                & img:nth-child(3)
+                    top: 274px
+                    right: 0
+                    z-index: 1
+                    width: 146px
+                    height: auto
+            .description
+                position: absolute
+                top: 515px
+                left: 0
+                @media screen and (max-width: 540px)
+                    top: 290px
+                img
+                    position: static
+                    width: 177px
+                    height: auto
+            .wheat-desc
+                //margin-top: -10px
+                div
+                    margin-left: 31px
+                    background: $taste
+                    width: 1px
+                    height: 31px
+                    transform: rotate(34deg)
+                    @media screen and (max-width: 540px)
+                        margin-left: 18px
+                        height: 15px
+                p
+                    font-family: 'CourierNewPS-BoldMT', sans-serif
+                    font-size: 20px
+                    line-height: 110%
+                    color: $taste
+                    @media screen and (max-width: 1200px)
+                        font-size: 16px
+                    @media screen and (max-width: 540px)
+                        font-size: 12px
+                & p:nth-child(2)
+                    padding-bottom: 20px
+                    @media screen and (max-width: 540px)
+                        padding-bottom: 10px
+                & p:nth-child(3)
+                    font-size: 12px
+                    @media screen and (max-width: 540px)
+                        font-size: 7px
+
+    .back-structure
+        background: $pink
+        width: 860px
+        height: 650px
+        position: absolute
+        top: 41px
+        right: 0
+        border-radius: 0 400px 400px 0
+        @media screen and (max-width: 1200px)
+            width: 640px
+        @media screen and (max-width: 991px)
+            position: initial
+            border-radius: 0
+            background: transparent
+            width: 532px
+            padding-bottom: 24px
+            height: auto
+        @media screen and (max-width: 540px)
+            width: 300px
+        .massa
+            width: 118px
+            height: 118px
+            background: $birusa
+            border-radius: 50%
+            position: absolute
+            top: 532px
+            right: 67px
+            @media screen and (max-width: 1200px)
+                top: 569px
+            @media screen and (max-width: 991px)
+                bottom: 0
+                top: auto
+                display: none!important
+            h2
+                color: white
+        .structure
+            width: 333px
+            margin: 83px 0 0 305px
+            color: $red
+            @media screen and (max-width: 1200px)
+                margin: 125px 0 0 290px
+                width: 240px
+            @media screen and (max-width: 991px)
+                margin: 20px 0 0 0
+                align-items: center
+                width: 100%
+            h2
+                margin-bottom: 28px
+                @media screen and (max-width: 1200px)
+                    font-size: 20px
+                @media screen and (max-width: 991px)
+                    text-align: center
+                    font-size: 46px
+                @media screen and (max-width: 540px)
+                    font-size: 24px
+            .gramm
+                @media screen and (max-width: 991px)
+                    flex-direction: row!important
+                    justify-content: space-between
+                    width: 100%
+                & p:nth-child(2)
+                    font-family: 'TTCommons-Regular', sans-serif
+                    margin-top: 6px
+                div
+                    padding: 20px 0
+                    border-bottom: 1px solid $red
+                    @media screen and (max-width: 991px)
+                        border-bottom: none!important
+                        flex-direction: column
+            p
+                font-family: 'TTCommons-Bold', sans-serif
+                font-size: 24px
+                line-height: 110%
+                @media screen and (max-width: 1200px)
+                    font-size: 19px
+                @media screen and (max-width: 540px)
+                    font-size: 12px
+            .energy
+                padding-top: 20px
+                @media screen and (max-width: 991px)
+                    align-self: flex-start
+                & p:nth-child(2)
+                    font-family: 'TTCommons-Regular', sans-serif
+                    margin-left: 22px
+    .box-slider2
+        .slide1, .slide2, .slide3, .slide4
+            @media screen and (max-width: 991px)
+                margin-top: 160px
+                display: flex!important
+                flex-direction: column
+                align-items: center
+                background: $pink
+                border-radius: 400px 400px 0 0
+                padding: 0 20px
+            @media screen and (max-width: 540px)
+                margin-top: 80px
+                .structure
+                    .gramm
+                        div
+                            border-bottom: none!important
+        .slide2
+            @media screen and (max-width: 991px)
+                background: $header
+            .next-slider2
+                background-color: $taste
+            .big-img
+                .apple-radius
+                    background: $header
+            .back-structure
+                background: $header
+            .structure
+                color: $taste
+                .gramm
+                    div
+                        border-bottom: 1px solid $taste
+            .massa
+                background: $green
+        .slide3
+            @media screen and (max-width: 991px)
+                background: $birusa
+            .next-slider2
+                background-color: $yellow
+            .big-img
+                .apple-radius
+                    background: $yellow
+            .back-structure
+                background: $birusa
+            .structure
+                color: $night
+                .gramm
+                    div
+                        border-bottom: 1px solid $night
+            .massa
+                background: $red
+        .slide4
+            @media screen and (max-width: 991px)
+                background: $yellow
+            .chamomile
+                z-index: 2
+                position: absolute
+                right: -34px
+                top: 433px
+                div
+                    transform: rotate(-36deg)
+            .next-slider2
+                background-color: $green
+            .big-img
+                .apple-radius
+                    background: $green
+            .back-structure
+                background: $yellow
+            .structure
+                color: $taste
+                .gramm
+                    div
+                        border-bottom: 1px solid $taste
+            .massa
+                background: $red
+
+
+.reviews
+    padding-bottom: 0
+    background: $back
+    padding-bottom: 50px
+    @media screen and (max-width: 991px)
+        padding-bottom: 0
+    h2
+        @media screen and (max-width: 540px)
+            font-size: 20px
+    img
+        @media screen and (max-width: 740px)
+            height: 621px
+    .slick-dotted.slick-slider
+        @media screen and (max-width: 991px)
+            margin-bottom: -32px!important
+    .slider-dots
+        display: flex
+        justify-content: center
+        margin-top: 30px
+        @media screen and (max-width: 991px)
+            position: relative
+            top: -80px
+            margin-top: 0
+        .slick-active
+            filter: none
+            button
+                width: 25px
+                height: 25px
+        .slick-active:nth-child(1)
+            button
+                border: 6px solid #F6BEBE
+                background: $red
+        .slick-active:nth-child(2)
+            button
+                border: 6px solid $header
+                background: $green
+        .slick-active:nth-child(3)
+            button
+                border: 6px solid $birusa
+                background: $red
+        .slick-active:nth-child(4)
+            button
+                border: 6px solid $yellow
+                background: $green
+        li
+            list-style: none
+            button
+                border-radius: 50%
+                font-size: 0
+                width: 25px
+                height: 25px
+                border: 6px solid $back
+                background: #c4c4c4
+                transition: 0.5s
+                margin-right: 42px
+            button:hover
+                border: 0 solid transparent
+            button:focus
+                outline: none
+                box-shadow: none
+        li:last-child
+            button
+                margin-right: 0
+
+
+    .slide1
+        .margin
+            @media screen and (max-width: 991px)
+                flex-direction: column
+                width: 100%
+            .reviews-photo
+                margin: 213px -29px 0 163px
+                z-index: 1
+                @media screen and (max-width: 1200px)
+                    margin: 213px -29px 0 0
+                @media screen and (max-width: 991px)
+                    width: 700px
+                    margin: 32px auto -80px
+                @media screen and (max-width: 740px)
+                    width: 500px
+                    img
+                        width: auto
+                        margin: 0 auto
+                @media screen and (max-width: 540px)
+                    width: 300px
+                    img
+                        height: 372px
+
+            .reviews-text
+                position: relative
+                margin-top: 113px
+                width: 581px
+                height: 581px
+                background: $header
+                border-radius: 50%
+                text-align: center
+                color: $taste
+                @media screen and (max-width: 1200px)
+                    width: 500px
+                    height: 500px
+                @media screen and (max-width: 991px)
+                    justify-content: flex-start!important
+                    margin-top: 0
+                    border-radius: 0
+                    width: 100vw
+                    padding: 100px 0
+                @media screen and (max-width: 991px)
+                    height: 782px
+        .loop
+            position: absolute
+            width: calc(0.36 * 100vw)
+            height: 450px
+            border: 120px solid $yellow
+            border-left: none
+            border-radius: 0 500px 500px 0
+            @media screen and (max-width: 540px)
+                border: 60px solid $yellow
+                height: 278px
+                border-left: none
+                width: calc(0.9 * 100vw)
+    .reviews-text
+        & h2:nth-child(1)
+            font-family: 'TTCommons-DemiBold', sans-serif
+        & h2:nth-child(2)
+            font-family: 'TTCommons-ExtraBold', sans-serif
+            margin-bottom: 16px
+        p
+            font-family: 'TTCommons-DemiBold', sans-serif
+            font-size: 24px
+            line-height: 110%
+            @media screen and (max-width: 1200px)
+                font-size: 19px
+
+    .next-slider3
+        z-index: 1
+        width: 118px
+        height: 118px
+        border: none
+        border-radius: 50%
+        background: $red
+        background-image: url("/img/arrow-next.svg")
+        background-repeat: no-repeat
+        background-position: center
+        position: absolute
+        right: 0
+        bottom: 0
+        @media screen and (max-width: 991px)
+            display: none!important
+
+
+
+    .slide2
+        position: relative
+        .margin
+            @media screen and (max-width: 991px)
+                flex-direction: column-reverse
+                width: 100%
+            .reviews-photo
+                position: relative
+                margin: 237px 0 0 0
+                @media screen and (max-width: 991px)
+                    width: 700px
+                    margin: 32px auto -80px
+                    z-index: 1
+                @media screen and (max-width: 740px)
+                    width: 500px
+                @media screen and (max-width: 540px)
+                    width: 300px
+                .next-slider3
+                    background-color: $yellow
+                    bottom: 118px
+                img:nth-child(1)
+                    @media screen and (max-width: 991px)
+                        display: none
+                img:nth-child(2)
+                    display: none
+                    @media screen and (max-width: 991px)
+                        display: block
+                        width: 422px
+                        height: 589px
+                    @media screen and (max-width: 740px)
+                        width: 100%
+                        height: auto
+            .reviews-text
+                z-index: 1
+                margin-top: 110px
+                width: 585px
+                height: 690px
+                background: $red
+                border-radius: 500px 500px 0 0
+                text-align: center
+                color: $pink
+                @media screen and (max-width: 991px)
+                    margin-top: 0
+                    border-radius: 0
+                    width: 100vw
+                    height: auto
+                    padding: 100px 0
+                    justify-content: flex-start!important
+                @media screen and (max-width: 991px)
+                    height: 782px
+        .loop
+            position: absolute
+            right: 0
+            width: calc(0.58 * 100vw)
+            height: 549px
+            border: 120px solid $birusa
+            border-right: none
+            border-radius: 500px 0 0 500px
+            @media screen and (max-width: 540px)
+                border: 60px solid $birusa
+                height: 278px
+                border-right: none
+    .slide3
+        .margin
+            .reviews-photo
+                margin: 213px -68px 0 136px
+                @media screen and (max-width: 1200px)
+                    margin: 213px -68px 0 0
+                @media screen and (max-width: 991px)
+                    width: 700px
+                    margin: 32px auto -80px
+                @media screen and (max-width: 740px)
+                    width: 500px
+                @media screen and (max-width: 540px)
+                    width: 300px
+            .reviews-text
+                position: relative
+                margin-top: 74px
+                width: 652px
+                height: 652px
+                @media screen and (max-width: 1200px)
+                    width: 500px
+                    height: 500px
+                @media screen and (max-width: 991px)
+                    margin-top: 0
+                    border-radius: 0
+                    width: 100vw
+                    height: auto
+                    padding: 100px 0
+                @media screen and (max-width: 991px)
+                    height: 782px
+        .loop
+            position: absolute
+            width: calc(0.29 * 100vw)
+            height: 549px
+            border: 120px solid $birusa
+            border-left: none
+            @media screen and (max-width: 540px)
+                border: 60px solid $birusa
+                height: 278px
+                border-left: none
+                width: calc(0.9 * 100vw)
+        .next-slider3
+            background-color: $green
+            bottom: 44px
+            @media screen and (max-width: 1200px)
+                bottom: -40px
+    .slide4
+        .margin
+            .reviews-photo
+                .next-slider3
+                    background-color: $header
+                    bottom: 118px
+            .reviews-text
+                background: $birusa
+                color: $white
+        .loop
+            width: calc(0.44 * 100vw)
+            height: 449px
+            border: 120px solid $yellow
+            border-right: none
+            @media screen and (max-width: 740px)
+                width: calc(0.9 * 100vw)
+            @media screen and (max-width: 540px)
+                border: 60px solid $yellow
+                height: 278px
+                border-right: none
+    .slider3
+        .slick-prev-slider3, .slick-next-slider3
+            display: none!important
+
+footer
+    padding: 52px 0
+    background: $taste
+    font-family: 'TTCommons-DemiBold', sans-serif
+    font-size: 24px
+    line-height: 110%
+    color: white
+    a
+        color: white
+        text-decoration: underline
+    a:hover
+        color: white
+
+
+.preloader
+    position: fixed
+    left: 0
+    top: 0
+    z-index: 1200
+    width: 100%
+    height: 100%
+    overflow: visible
+    background-color: $header
+    display: flex
+    justify-content: center
+    align-items: center
+    div
+        animation: scaleu 1s linear infinite
+        @keyframes scaleu
+            from
+                transform: rotate(0)
+            to
+                transform: rotate(365deg)
