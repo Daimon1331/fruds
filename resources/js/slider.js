@@ -28,6 +28,7 @@ $('.slider3').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
     dots: true,
     dotsClass: 'slider-dots',
     prevArrow: '<button class="slick-prev-slider3" aria-label="Previous" type="button"></button>',
@@ -85,3 +86,20 @@ $('.nav-header a, .arrow-down a').click(function () {
 });
 
 $('#preloader').fadeOut(1000,function(){$(this).remove();});
+
+window.onscroll = function() {
+    let scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+    if(scrolled > 2){
+        $("header").addClass('header-scroll');
+
+    }
+    if(2 > scrolled){
+        $("header").removeClass('header-scroll');
+
+    }
+};
+
+
+
+

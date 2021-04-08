@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "@popperjs/core": "^2.9.2",
+        "jquery-scrollify": "^1.0.21",
         "slick-carousel": "^1.8.1"
     }
 }

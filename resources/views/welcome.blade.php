@@ -18,7 +18,7 @@
 
 
     <!-- Disable screen scaling-->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
 
 
 
@@ -51,7 +51,7 @@
         <div class="margin">
             <div class="d-flex justify-content-between">
                     <img alt="Fruds" src="/img/logotop.png">
-                <img alt="close" class="menu-cross" src="/img/close.png">
+                <div><img alt="close" class="menu-cross" src="/img/close.png"></div>
             </div>
             <div class="d-flex flex-column align-items-center nav-header">
                 <a href="#smartfood">Fruds</a>
@@ -61,9 +61,10 @@
             </div>
         </div>
     </div>
-    <section class="smartfood" id="smartfood">
+    <section class="smartfood example-scroll" id="smartfood">
         <div class="yellow"></div>
-        <div class="d-flex justify-content-between margin">
+        <div class="d-flex flex-column align-items-center margin">
+            <div class="d-flex justify-content-between w-100 block-smartfood">
             <div class="img-smartfood">
                 <div class="yellow"></div>
                 <div class="img-smartfood-mob">
@@ -84,15 +85,17 @@ smart food</h1>
 и пищевыми волокнами</h2>
                 <a target="_blank" href="https://www.instagram.com/fruds.by/">Fruds в instagram</a>
             </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center arrow-down">
+                <a href="#smartandfood"><img alt="arrow" src="/img/arrow-down.svg"></a>
+            </div>
         </div>
-
+    </section>
+    <section class="smartandfood example-scroll"  id="smartandfood">
         <div class="margin block-margin">
             <div class="d-flex flex-column">
                 <div class="d-flex flex-column align-items-center block-arrow">
-                    <div class="d-flex align-items-center justify-content-center arrow-down">
-                        <a href="#smartandfood"><img alt="arrow" src="/img/arrow-down.svg"></a>
-                    </div>
-                    <h3 id="smartandfood">Почему тебе
+                    <h3>Почему тебе
 понравится FRUDS</h3>
                 </div>
                 <div class="d-flex align-items-center justify-content-between block-ul">
@@ -151,7 +154,7 @@ smart food</h1>
         </div>
     </section>
     <section class="cellulose">
-        <div class="margin" id="cellulose">
+        <div class=" example-scroll margin" id="cellulose">
             <div class="slider1">
             <div class="slide1">
             <div class="d-flex justify-content-between">
@@ -189,7 +192,7 @@ smart food</h1>
                         <br>воздействует на организм.
                         <br>
                         <br>Клетчатка состоит из растворимых
-                        <br> нерастворимых микроволокон,
+                        <br>и нерастворимых микроволокон,
                         <br>что делает ее свойства уникальными.
                         <br>
                         <br>Клетчатка дает долгое насыщение
@@ -253,12 +256,15 @@ smart food</h1>
                                 <br>воздействует на организм.
                                 <br>
                                 <br>Клетчатка состоит из растворимых
-                                <br> нерастворимых микроволокон,
+                                <br>и нерастворимых микроволокон,
                                 <br>что делает ее свойства уникальными.
                                 <br>
-                                <br>Клетчатка дает долгое
-                                <br>насыщение и предотвращает
-                                <br>импульсивное переедание.
+                                <span>
+                                <br>Клетчатка дает
+                                    <br>долгое насыщение
+                                <br>и предотвращает
+                                <br>импульсивное
+                                    <br>переедание.</span>
                             </p>
                             <button class="next-slider1-mob" aria-label="Next" type="button"></button>
                         </div>
@@ -298,18 +304,20 @@ smart food</h1>
                             <h4>Пищевые
                                 <br>волокна</h4>
                             <p class="p8">
-                                Особенность пищевых волокон
-                                <br>в том, что они не подвергаются
-                                <br>воздействию желудка и тонкого
-                                <br>кишечника.
+                                Особенность пищевых волокон в том,
+                                <br>что они не подвергаются воздействию
+                                <br>желудка и тонкого кишечника.
                                 <br>
                                 <br>Их действие активируется
                                 <br>в толстом кишечнике.
                                 <br>
-                                <br>Именно там вырабатывается
-                                <br>70% энергии нашего организма,
-                                <br>а также естественные защиты
-                                <br>организма.
+                                <span>
+                                <br>Именно там
+                                    <br>вырабатывается 70%
+                                <br>энергии нашего
+                                    <br>организма, а также
+                                <br>естественные защиты
+                                <br>организма.</span>
                             </p>
                             <button class="prev-slider1-mob" aria-label="Next" type="button"></button>
                         </div>
@@ -317,7 +325,7 @@ smart food</h1>
                         <div class="d-flex flex-column align-self-end col1">
                             <div class="d-flex">
                                 <div class="col3">
-                                    <img alt="Fruds" class="w-100" src="/img/cellulose-mob3.png">
+                                    <img alt="Fruds" class="w-100 h-100" src="/img/cellulose-mob3.png">
                                 </div>
                                 <p class="p3">Снижают
                                     <br>риск развития инфекций и воспалений</p>
@@ -338,7 +346,7 @@ smart food</h1>
             </div>
         </div>
     </section>
-    <section class="comparison">
+    <section class="comparison example-scroll">
         <div class="margin">
             <div class="d-flex flex-column">
                 <h4>fruds<span> vs</span> обычный перекус</h4>
@@ -389,7 +397,7 @@ smart food</h1>
             </div>
         </div>
     </section>
-    <section class="choose">
+    <section class="choose example-scroll">
         <div class="margin" id="choose">
             <h4>выбери свой вкус</h4>
         </div>
@@ -458,12 +466,13 @@ smart food</h1>
                         <div class="d-flex justify-content-between energy">
                             <p>Энергетическая
                                 <br>ценность</p>
-                            <p>250 кДж
+                            <p>250 кДж/
                             <br>60 Ккалл</p>
                         </div>
                     </div>
                 </p>
             </div>
+
             </div>
                 <div class="slide2 position-relative">
                     <button class="next-slider2" aria-label="Next" type="button"></button>
@@ -521,7 +530,7 @@ smart food</h1>
                             <div class="d-flex justify-content-between energy">
                                 <p>Энергетическая
                                     <br>ценность</p>
-                                <p>310 кДж
+                                <p>310 кДж/
                                     <br>75 Ккалл</p>
                             </div>
                         </div>
@@ -544,9 +553,11 @@ smart food</h1>
 {{--                                    <div><img src="/img/goji.png"></div>--}}
                                     <div class="d-flex flex-column wheat-desc">
                                         <div></div>
-                                        <p>куркума</p>
-                                        <p>снижает риск
-                                            <br>воспалений</p>
+                                        <p>ягоды
+                                        <br>годжи</p>
+                                        <p>улучшают
+                                            <br>обмен
+                                        <br>веществ</p>
                                     </div>
                                 </div>
                             </div>
@@ -581,7 +592,7 @@ smart food</h1>
                                 <div class="d-flex justify-content-between energy">
                                     <p>Энергетическая
                                         <br>ценность</p>
-                                    <p>230 кДж
+                                    <p>230 кДж/
                                         <br>55 Ккалл</p>
                                 </div>
                             </div>
@@ -651,7 +662,7 @@ smart food</h1>
                                 <div class="d-flex justify-content-between energy">
                                     <p>Энергетическая
                                         <br>ценность</p>
-                                    <p>260 кДж
+                                    <p>260 кДж/
                                         <br>60 Ккалл</p>
                                 </div>
                             </div>
@@ -662,7 +673,7 @@ smart food</h1>
             </div>
         </div>
     </section>
-    <section class="reviews" id="reviews">
+    <section class="reviews">
             <div class="slider3">
                 <div class="slide1">
                     <div class="loop"></div>
@@ -670,7 +681,7 @@ smart food</h1>
             <div class="reviews-photo">
                 <img alt="Fruds" src="/img/kristina.png">
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center reviews-text">
+            <div id="reviews" class="example-scroll d-flex flex-column align-items-center justify-content-center reviews-text">
                 <h2>Кристина:</h2>
                 <h2>“Успеваю перекусить
                 <br>на скайп-колле”</h2>

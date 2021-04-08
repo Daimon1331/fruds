@@ -4,6 +4,7 @@ html *
     margin: 0
 
 body
+    background: $back
     padding-top: 81px
     @media screen and (max-width: 991px)
         padding-top: 67px
@@ -68,6 +69,13 @@ h4
     @media screen and (max-width: 540px)
         font-size: 28px!important
 
+.header-scroll
+    transform: translateY(-67px)
+    @media screen and (max-width: 991px)
+        transform: none
+
+header:hover
+    transform: none
 
 header
     position: fixed
@@ -75,9 +83,11 @@ header
     left: 0
     width: 100%
     z-index: 999
-    transition: .5s
     background: $header
     padding: 15px 0
+    transition: 1s
+    @media screen and (max-width: 991px)
+        transform: none
     .menu-button
         display: none
         @media screen and (max-width: 991px)
@@ -93,9 +103,11 @@ header
         line-height: 18px
         color: $taste
         text-transform: uppercase
-    & a:nth-child(1)
+        transition: .5s
+    a:hover
         text-decoration-line: underline
         color: $purple
+
 
 .logo-nav
     @media screen and (max-width: 991px)
@@ -135,9 +147,10 @@ header
             display: none
     .margin
         position: relative
-        @media screen and (max-width: 991px)
-            flex-direction: column-reverse
-            align-items: center
+        .block-smartfood
+            @media screen and (max-width: 991px)
+                flex-direction: column-reverse
+                align-items: center
     .img-smartfood
         position: relative
         width: 315px
@@ -224,9 +237,6 @@ header
                 height: 80%
             @media screen and (max-width: 740px)
                 height: 73%
-
-
-
     .logo-desc
         margin-top: 67px
         @media screen and (max-width: 1200px)
@@ -259,26 +269,26 @@ header
             margin-top: 58px
             @media screen and (max-width: 991px)
                 display: none
-
-.smartfood
-    .block-margin
+    .arrow-down
+        background: $header
+        border-radius: 50%
+        width: 118px
+        height: 118px
         margin-top: -100px
         @media screen and (max-width: 991px)
             margin-top: 16px
+        @media screen and (max-width: 540px)
+            width: 40px
+            height: 40px
+
+.smartandfood
     .block-ul
         margin-top: -50px
         @media screen and (max-width: 1200px)
             margin: 0
         @media screen and (max-width: 740px)
             flex-direction: column
-    .arrow-down
-        background: $header
-        border-radius: 50%
-        width: 118px
-        height: 118px
-        @media screen and (max-width: 540px)
-            width: 40px
-            height: 40px
+
     h3
         margin-top: 14px
         white-space: pre-wrap
@@ -310,7 +320,7 @@ header
     ul
         padding: 0 92px 4px 89px
         @media screen and (max-width: 1200px)
-            padding: 0 20px 4px 20px
+            padding: 0 15px 4px 15px
     li
         font-family: 'CourierNewPS-BoldMT', sans-serif
         font-size: 18px
@@ -411,7 +421,7 @@ header
 
 .cellulose
     background: $back
-    padding-top: 142px
+    padding: 142px 0 100px
     @media screen and (max-width: 991px)
         padding-top: 35px
     .margin
@@ -630,7 +640,7 @@ header
                 font-size: 14px
             @media screen and (max-width: 540px)
                 font-size: 10px
-                height: 38px
+                height: 47px
         .col2
             width: 70%
             margin: 0 0 0 7px
@@ -719,7 +729,7 @@ header
             margin-bottom: -28px
             @media screen and (max-width: 540px)
                 font-size: 28px
-                margin-bottom: -28px
+                margin-bottom: 0
         .p8
             font-size: 16px
             padding-top: 0
@@ -728,17 +738,21 @@ header
             display: block
             margin-left: 213px
             @media screen and (max-width: 740px)
-                font-size: 13px
+                font-size: 14px
                 margin-left: 153px
             @media screen and (max-width: 540px)
-                font-size: 7px
-                margin-left: 88px
+                margin-left: 0
+                padding: 0
+                font-size: 11px
+                span
+                    position: relative
+                    left: 98px
         .mb55
             margin-bottom: -167px
             @media screen and (max-width: 740px)
                 margin-bottom: -129px
             @media screen and (max-width: 540px)
-                margin-bottom: -55px
+                margin-bottom: -58px
         .next-slider1-mob
             z-index: 1
             width: 40px
@@ -750,10 +764,8 @@ header
             background-position: center
             position: absolute
             right: 0
-            top: 89px
+            bottom: 0
             border: none
-            @media screen and (max-width: 540px)
-                top: 72px
         .next-slider1-mob:hover
             border: none
     .slide2
@@ -773,8 +785,8 @@ header
                 height: 147px
             @media screen and (max-width: 540px)
                 font-size: 12px
-                height: 125px
-                width: 125px
+                height: 153px
+                width: 110px
         .col2
             width: 17%
             margin: 0 0 0 7px
@@ -796,8 +808,8 @@ header
                 font-size: 12px
                 height: 251px
             @media screen and (max-width: 540px)
-                height: 170px
-                width: 88px
+                height: 140px
+                width: 104px
         .p1+div
             margin: 7px 0 0 0
         .p2
@@ -826,16 +838,21 @@ header
             margin-right: 116px
             text-align: right
             @media screen and (max-width: 740px)
-                font-size: 13px
+                font-size: 14px
                 margin-right: 94px
             @media screen and (max-width: 540px)
-                font-size: 7px
+                font-size: 11px
+                padding: 0
+                margin-right: 0
+                span
+                    position: relative
+                    right: 111px
         .mb97
             margin-bottom: -212px
             @media screen and (max-width: 740px)
                 margin-bottom: -135px
             @media screen and (max-width: 540px)
-                margin-bottom: -84px
+                margin-bottom: -71px
         .prev-slider1-mob
             z-index: 1
             width: 40px
@@ -847,10 +864,8 @@ header
             background-position: center
             position: absolute
             left: 0
-            top: 89px
+            bottom: 0
             border: none
-            @media screen and (max-width: 540px)
-                top: 72px
         .prev-slider1-mob:hover
             border: none
 
@@ -858,7 +873,7 @@ header
 
 .comparison
     background: $back
-    padding: 200px 0 120px
+    padding: 100px 0 120px
     @media screen and (max-width: 991px)
         padding: 35px 0
     h4
@@ -896,10 +911,12 @@ header
                 @media screen and (max-width: 540px)
                     width: 17px
                     height: auto
+                    flex: 0 0 17px
             & div:nth-child(3)
                 @media screen and (max-width: 540px)
                     width: 31px
                     height: auto
+                    flex: 0 0 31px
             p
                 font-family: 'CourierNewPS-BoldMT', sans-serif
                 font-size: 20px
@@ -907,7 +924,7 @@ header
                 color: $taste
                 text-align: center
                 @media screen and (max-width: 540px)
-                    font-size: 9px
+                    font-size: 14px
 
 .hide
     display: none!important
@@ -921,7 +938,6 @@ header
         //height: 723px!important
     @media screen and (max-width: 540px)
         width: 300px!important
-
 .choose
     background: $taste
     text-align: center
@@ -939,11 +955,11 @@ header
         font-size: 96px
         line-height: 110%
         text-transform: uppercase
-        padding: 98px 0
+        padding: 50px 0 30px
         @media screen and (max-width: 740px)
             padding: 32px 0
     .box-slider2
-        padding: 92px 0 136px
+        padding: 40px 0 50px
         text-align: left
         background: $back
         @media screen and (max-width: 991px)
@@ -1093,7 +1109,8 @@ header
                     width: 177px
                     height: auto
             .wheat-desc
-                //margin-top: -10px
+                @media screen and (max-width: 540px)
+                    margin-left: -9px
                 div
                     margin-left: 31px
                     background: $taste
@@ -1111,13 +1128,14 @@ header
                     @media screen and (max-width: 1200px)
                         font-size: 16px
                     @media screen and (max-width: 540px)
-                        font-size: 12px
+                        font-size: 14px
                 & p:nth-child(2)
                     padding-bottom: 20px
                     @media screen and (max-width: 540px)
                         padding-bottom: 10px
                 & p:nth-child(3)
                     font-size: 12px
+                    text-align: center
                     @media screen and (max-width: 540px)
                         font-size: 7px
 
@@ -1151,13 +1169,17 @@ header
             @media screen and (max-width: 1200px)
                 top: 569px
             @media screen and (max-width: 991px)
-                bottom: 0
+                width: 60px
+                height: 60px
+                bottom: -15px
                 top: auto
-                display: none!important
+                //display: none!important
             h2
                 color: white
+                @media screen and (max-width: 991px)
+                    font-size: 14px
         .structure
-            width: 333px
+            width: 368px
             margin: 83px 0 0 305px
             color: $red
             @media screen and (max-width: 1200px)
@@ -1208,7 +1230,8 @@ header
     .box-slider2
         .slide1, .slide2, .slide3, .slide4
             @media screen and (max-width: 991px)
-                margin-top: 160px
+
+                margin: 160px 0 15px
                 display: flex!important
                 flex-direction: column
                 align-items: center
@@ -1278,15 +1301,15 @@ header
                     div
                         border-bottom: 1px solid $taste
             .massa
-                background: $red
+                background: $green
 
-
+.slide2, .slide3, .slide4
+    .big-img
+        .wheat-desc
+            p:nth-child(3)
+                font-size: 10px!important
 .reviews
-    padding-bottom: 0
     background: $back
-    padding-bottom: 50px
-    @media screen and (max-width: 991px)
-        padding-bottom: 0
     h2
         @media screen and (max-width: 540px)
             font-size: 20px
@@ -1387,8 +1410,8 @@ header
                     border-radius: 0
                     width: 100vw
                     padding: 100px 0
-                @media screen and (max-width: 991px)
-                    height: 782px
+                //@media screen and (max-width: 991px)
+                //    height: 782px
         .loop
             position: absolute
             width: calc(0.36 * 100vw)
@@ -1480,8 +1503,8 @@ header
                     height: auto
                     padding: 100px 0
                     justify-content: flex-start!important
-                @media screen and (max-width: 991px)
-                    height: 782px
+                //@media screen and (max-width: 991px)
+                //    height: 782px
         .loop
             position: absolute
             right: 0
@@ -1521,8 +1544,8 @@ header
                     width: 100vw
                     height: auto
                     padding: 100px 0
-                @media screen and (max-width: 991px)
-                    height: 782px
+                //@media screen and (max-width: 991px)
+                //    height: 782px
         .loop
             position: absolute
             width: calc(0.29 * 100vw)
