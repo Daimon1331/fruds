@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WNRDGQJ');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <title>FRUDS -твой новый smart food</title>
 
@@ -32,6 +40,10 @@
 
 </head>
     <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNRDGQJ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="preloader" id="preloader">
         <div><img alt="Fruds" src="/img/U.svg"></div>
     </div>
@@ -109,7 +121,7 @@ smart food</h1>
 тренировки</li>
                             <li class="d-flex align-items-start">Не придется тратить время
 на приготовление</li>
-                            <li class="d-flex align-items-start">FRUDS не нужно хранить
+                            <li class="d-flex align-items-start">FRUDS не нужно хранить в
 холодильнике: бери несколько
 упаковок на весь день</li>
                             <li class="d-flex align-items-start">Никаких крошек: перекуси
@@ -373,7 +385,7 @@ smart food</h1>
                             <img alt="Fruds" src="/img/U.svg">
                         </div>
                         <p>Не нужно мыть и никаких грязных рук.
-                        <br>Просто откройте FRUDS!</p>
+Просто откройте FRUDS!</p>
                         <div>
                             <img alt="Fruds" src="/img/icons (2).svg">
                         </div>
@@ -388,7 +400,7 @@ smart food</h1>
                             <img alt="Fruds" src="/img/U.svg">
                         </div>
                         <p>FRUDS не содержит лишних калорий
-                        <br>и добавленного сахара.</p>
+и добавленного сахара.</p>
                         <div>
                             <img alt="Fruds" src="/img/icons (3).svg">
                         </div>
@@ -684,7 +696,7 @@ smart food</h1>
             <div id="reviews" class="example-scroll d-flex flex-column align-items-center justify-content-center reviews-text">
                 <h2>Кристина:</h2>
                 <h2>“Успеваю перекусить
-                <br>на скайп-колле”</h2>
+                <br>на Zoom-колле”</h2>
                 <p>Смузи Fruds помещается в любые
                     <br>мои сумки (даже в любимый клатч!).
                     <br>И когда я в очередной раз забываю
