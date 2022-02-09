@@ -10828,44 +10828,28 @@ textarea.form-control-lg {
   }
 }
 @font-face {
-  font-family: "TTCommons-Bold";
-  src: url(/fonts/TTCommons-Bold.eot?57849dd2acc866a7fb3a74da77fb0563);
-  src: url(/fonts/TTCommons-Bold.eot?57849dd2acc866a7fb3a74da77fb0563) format("embedded-opentype");
-  src: url(/fonts/TTCommons-Bold.woff2?869ee89ffcd0bd8f7d13a9beae2e2291) format("woff2");
-  src: url(/fonts/TTCommons-Bold.woff?36b06bbb8c98131d5a5b0fc9d21234b7) format("woff");
-  src: url(/fonts/TTCommons-Bold.ttf?c9d4cd31e43277a536030d226e42fffd) format("truetype");
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(/fonts/Montserrat-VariableFont_wght.ttf?3068cdb43142f5625bafcb92563ecbfc) format("truetype");
+  font-weight: 800;
 }
 @font-face {
-  font-family: "TTCommons-ExtraBold";
-  src: url(/fonts/TTCommons-ExtraBold.eot?7a0e6eb71b84c030f2423ce205b587e2);
-  src: url(/fonts/TTCommons-ExtraBold.eot?7a0e6eb71b84c030f2423ce205b587e2) format("embedded-opentype");
-  src: url(/fonts/TTCommons-ExtraBold.woff2?b064342cac8d46d0e6760685fc82ffe8) format("woff2");
-  src: url(/fonts/TTCommons-ExtraBold.woff?88482f5e7bf030ac3b30416f429caed8) format("woff");
-  src: url(/fonts/TTCommons-ExtraBold.ttf?57279e8f38caf55ef70ceefb27ffe3c5) format("truetype");
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(/fonts/Montserrat-VariableFont_wght.ttf?3068cdb43142f5625bafcb92563ecbfc) format("truetype");
+  font-weight: 700;
 }
 @font-face {
-  font-family: "TTCommons-DemiBold";
-  src: url(/fonts/TTCommons-DemiBold.eot?77635ccdbcb56d69529039a6db33390e);
-  src: url(/fonts/TTCommons-DemiBold.eot?77635ccdbcb56d69529039a6db33390e) format("embedded-opentype");
-  src: url(/fonts/TTCommons-DemiBold.woff2?7f17e3b07384395da5846c03d76a4a98) format("woff2");
-  src: url(/fonts/TTCommons-DemiBold.woff?dbc16e7a4d4aa8da9b7d7febd8396ae2) format("woff");
-  src: url(/fonts/TTCommons-DemiBold.ttf?dfcdd7ec23075372dd2dcc8ee9ace5f9) format("truetype");
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(/fonts/Montserrat-VariableFont_wght.ttf?3068cdb43142f5625bafcb92563ecbfc) format("truetype");
+  font-weight: 600;
 }
 @font-face {
-  font-family: "TTCommons-Regular";
-  src: url(/fonts/TTCommons-Regular.eot?10743fc2c600aecb7c67c64d47c74b24);
-  src: url(/fonts/TTCommons-Regular.eot?10743fc2c600aecb7c67c64d47c74b24) format("embedded-opentype");
-  src: url(/fonts/TTCommons-Regular.woff2?dcfd1567a171a24deb54095807b90cf6) format("woff2");
-  src: url(/fonts/TTCommons-Regular.woff?6e64b30e835e5872e2249aab543fd410) format("woff");
-  src: url(/fonts/TTCommons-Regular.ttf?7d4f044123cf9b20c11babc66957ce2b) format("truetype");
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(/fonts/Montserrat-VariableFont_wght.ttf?3068cdb43142f5625bafcb92563ecbfc) format("truetype");
+  font-weight: 400;
 }
 @font-face {
   font-family: "CourierNewPS-BoldMT";
-  src: url(/fonts/CourierNewPS-BoldMT.eot?433b52bc262f5574c94f73b5255ee4ed);
-  src: url(/fonts/CourierNewPS-BoldMT.eot?433b52bc262f5574c94f73b5255ee4ed) format("embedded-opentype");
-  src: url(/fonts/CourierNewPS-BoldMT.woff2?e77f0b07b31fae1cfccc82e249da9acf) format("woff2");
-  src: url(/fonts/CourierNewPS-BoldMT.woff?a56b111cf218d6f4c0d1fb8113f0c443) format("woff");
-  src: url(/fonts/CourierNewPS-BoldMT.ttf?394318b62e4b5c8c18ae8d6276e8485c) format("truetype");
+  src: local("CourierNewPS-BoldMT"), url(/fonts/CourierNewPS-BoldMT.eot?433b52bc262f5574c94f73b5255ee4ed), url(/fonts/CourierNewPS-BoldMT.eot?433b52bc262f5574c94f73b5255ee4ed) format("embedded-opentype"), url(/fonts/CourierNewPS-BoldMT.woff2?e77f0b07b31fae1cfccc82e249da9acf) format("woff2"), url(/fonts/CourierNewPS-BoldMT.woff?a56b111cf218d6f4c0d1fb8113f0c443) format("woff"), url(/fonts/CourierNewPS-BoldMT.ttf?394318b62e4b5c8c18ae8d6276e8485c) format("truetype");
 }
 html * {
   outline: none;
@@ -10930,15 +10914,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 }
 
 h1, .h1 {
-  font-family: "TTCommons-DemiBold", sans-serif;
-  font-size: 26px;
+  font-family: "Montserratd", sans-serif;
+  font-size: 24px;
   line-height: 110%;
+  font-weight: 700;
 }
 
 h2, .h2 {
-  font-family: "TTCommons-Bold", sans-serif;
-  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
   line-height: 110%;
+  font-weight: 700;
 }
 @media screen and (max-width: 540px) {
   h2, .h2 {
@@ -10948,32 +10934,34 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-family: "TTCommons-ExtraBold", sans-serif;
-  font-size: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
   line-height: 110%;
   color: #5C0029;
+  font-weight: 800;
 }
 @media screen and (max-width: 540px) {
   h3, .h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 
 h4, .h4 {
-  font-family: "TTCommons-ExtraBold", sans-serif;
-  font-size: 62px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 52px;
   line-height: 110%;
   color: #5C0029;
   text-transform: uppercase;
+  font-weight: 800;
 }
 @media screen and (max-width: 740px) {
   h4, .h4 {
-    font-size: 35px !important;
+    font-size: 25px !important;
   }
 }
 @media screen and (max-width: 540px) {
   h4, .h4 {
-    font-size: 28px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -11014,7 +11002,7 @@ header .menu-button {
   }
 }
 header .nav-header {
-  width: 50%;
+  width: 65%;
 }
 @media screen and (max-width: 991px) {
   header .nav-header {
@@ -11023,7 +11011,8 @@ header .nav-header {
 }
 
 .nav-header a {
-  font-family: "TTCommons-DemiBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 18px;
   line-height: 18px;
   color: #5C0029;
@@ -11163,7 +11152,8 @@ header .nav-header {
   background-size: contain;
 }
 .smartfood .img-smartfood .min-baner h1, .smartfood .img-smartfood .min-baner .h1 {
-  font-family: "TTCommons-DemiBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 26px;
   line-height: 110%;
   color: white;
@@ -11195,8 +11185,9 @@ header .nav-header {
   padding: 8px 52px;
   background: #EED67D;
   border-radius: 100px;
-  font-family: "TTCommons-DemiBold", sans-serif;
-  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 100%;
   color: #5C0029;
   text-transform: uppercase;
@@ -11274,7 +11265,8 @@ header .nav-header {
   padding: 25px 45px;
   background: #EED67D;
   border-radius: 100px;
-  font-family: "TTCommons-DemiBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 26px;
   line-height: 28px;
   color: #5C0029;
@@ -11352,8 +11344,9 @@ header .nav-header {
   }
 }
 .smartandfood p {
-  font-family: "TTCommons-ExtraBold", sans-serif;
-  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
   line-height: 110%;
   color: #FFD1D1;
   text-transform: uppercase;
@@ -11469,7 +11462,8 @@ header .nav-header {
   }
 }
 .smartandfood .right-ul div:nth-child(2) p {
-  font-size: 120px;
+  font-weight: 800;
+  font-size: 96px;
   -webkit-writing-mode: vertical-rl;
   transform: rotate(180deg);
   height: -webkit-min-content;
@@ -11570,8 +11564,10 @@ header .nav-header {
   }
 }
 .cellulose .margin p {
+  padding: 0 10px;
   text-align: center;
-  font-family: "TTCommons-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   line-height: 110%;
   text-transform: uppercase;
   display: flex;
@@ -11584,7 +11580,7 @@ header .nav-header {
   }
 }
 .cellulose .margin .p1 {
-  font-size: 28px;
+  font-size: 24px;
   color: white;
   background: #DFC8E1;
   width: 243px;
@@ -11604,7 +11600,7 @@ header .nav-header {
   }
 }
 .cellulose .margin .p2 {
-  font-size: 22px;
+  font-size: 18px;
   color: white;
   background: #E4CFC2;
   width: 125px;
@@ -11613,13 +11609,13 @@ header .nav-header {
 }
 @media screen and (max-width: 1200px) {
   .cellulose .margin .p2 {
-    font-size: 16px;
+    font-size: 12px;
     width: 92px;
     height: 142px;
   }
 }
 .cellulose .margin .p3 {
-  font-size: 26px;
+  font-size: 24px;
   color: #5C0029;
   background: #DFC8E1;
   border-radius: 0 100px 100px 0;
@@ -11636,7 +11632,7 @@ header .nav-header {
   }
 }
 .cellulose .margin .p4 {
-  font-size: 24px;
+  font-size: 20px;
   color: #5C0029;
   background: #E4CFC2;
   width: 194px;
@@ -11651,7 +11647,7 @@ header .nav-header {
   }
 }
 .cellulose .margin .p5 {
-  font-size: 24px;
+  font-size: 20px;
   color: #DFC8E1;
   background: #5C0029;
   width: 194px;
@@ -11666,7 +11662,7 @@ header .nav-header {
   }
 }
 .cellulose .margin .p6 {
-  font-size: 26px;
+  font-size: 24px;
   color: white;
   background: #DFC8E1;
   border-radius: 200px 200px 0 0;
@@ -11687,7 +11683,7 @@ header .nav-header {
   }
 }
 .cellulose .margin .p7 {
-  font-size: 22px;
+  font-size: 18px;
   color: #DFC8E1;
   background: #5C0029;
   width: 191px;
@@ -11696,13 +11692,12 @@ header .nav-header {
 }
 @media screen and (max-width: 1200px) {
   .cellulose .margin .p7 {
-    font-size: 16px;
+    font-size: 12px;
     width: 130px;
     height: 76px;
   }
 }
 .cellulose .margin h4, .cellulose .margin .h4 {
-  font-size: 62px;
   padding-top: 67px;
 }
 @media screen and (max-width: 1200px) {
@@ -11737,7 +11732,7 @@ header .nav-header {
 }
 @media screen and (max-width: 1200px) {
   .cellulose .slide2 .p1 {
-    font-size: 26px;
+    font-size: 18px;
     width: 178px;
     height: 271px;
   }
@@ -11748,7 +11743,7 @@ header .nav-header {
   }
 }
 .cellulose .slide2 .p2 {
-  font-size: 36px;
+  font-size: 20px;
   color: #5C0029;
   background: #DFC8E1;
   border-radius: 100px 0 0 100px;
@@ -11758,7 +11753,7 @@ header .nav-header {
 }
 @media screen and (max-width: 1200px) {
   .cellulose .slide2 .p2 {
-    font-size: 25px;
+    font-size: 20px;
     width: 282px;
     height: 148px;
   }
@@ -11773,7 +11768,7 @@ header .nav-header {
 }
 @media screen and (max-width: 1200px) {
   .cellulose .slide2 .p3 {
-    font-size: 20px;
+    font-size: 18px;
     width: 159px;
     height: 220px;
   }
@@ -11808,7 +11803,7 @@ header .nav-header {
   width: 30%;
 }
 .slider1-mob .slide1 .p6 {
-  font-size: 20px;
+  font-size: 17px;
   color: white;
   background: #DFC8E1;
   border-radius: 200px 200px 0 0;
@@ -11824,7 +11819,7 @@ header .nav-header {
 }
 @media screen and (max-width: 540px) {
   .slider1-mob .slide1 .p6 {
-    font-size: 12px;
+    font-size: 8px;
     padding-top: 0;
   }
 }
@@ -11832,7 +11827,7 @@ header .nav-header {
   width: auto;
 }
 .slider1-mob .slide1 .p7 {
-  font-size: 20px;
+  font-size: 17px;
   color: #DFC8E1;
   background: #5C0029;
   width: 100%;
@@ -12089,7 +12084,7 @@ header .nav-header {
 }
 @media screen and (max-width: 740px) {
   .slider1-mob .slide2 .p1 {
-    font-size: 12px;
+    font-size: 10px;
     height: 251px;
   }
 }
@@ -12310,7 +12305,7 @@ header .nav-header {
 }
 .choose h4, .choose .h4 {
   color: #F2EDE6;
-  font-size: 96px;
+  font-size: 80px;
   line-height: 110%;
   text-transform: uppercase;
   padding: 50px 0 30px;
@@ -12640,18 +12635,18 @@ header .nav-header {
 }
 @media screen and (max-width: 1200px) {
   .choose .back-structure .structure h2, .choose .back-structure .structure .h2 {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 991px) {
   .choose .back-structure .structure h2, .choose .back-structure .structure .h2 {
+    font-size: 20px;
     text-align: center;
-    font-size: 46px;
   }
 }
 @media screen and (max-width: 540px) {
   .choose .back-structure .structure h2, .choose .back-structure .structure .h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -12662,7 +12657,8 @@ header .nav-header {
   }
 }
 .choose .back-structure .structure .gramm p:nth-child(2) {
-  font-family: "TTCommons-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   margin-top: 6px;
 }
 .choose .back-structure .structure .gramm div {
@@ -12676,13 +12672,14 @@ header .nav-header {
   }
 }
 .choose .back-structure .structure p {
-  font-family: "TTCommons-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 110%;
 }
 @media screen and (max-width: 1200px) {
   .choose .back-structure .structure p {
-    font-size: 19px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 540px) {
@@ -12699,7 +12696,8 @@ header .nav-header {
   }
 }
 .choose .back-structure .structure .energy p:nth-child(2) {
-  font-family: "TTCommons-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   margin-left: 22px;
 }
 @media screen and (max-width: 991px) {
@@ -12727,7 +12725,7 @@ header .nav-header {
   }
 }
 .choose .box-slider2 .slide2 .next-slider2 {
-  background-color: #5C0029;
+  background-color: #D7133D;
 }
 .choose .box-slider2 .slide2 .big-img .apple-radius {
   background: #DFC8E1;
@@ -12782,7 +12780,7 @@ header .nav-header {
   transform: rotate(-36deg);
 }
 .choose .box-slider2 .slide4 .next-slider2 {
-  background-color: #ABB140;
+  background-color: #DA3716;
 }
 .choose .box-slider2 .slide4 .big-img .apple-radius {
   background: #ABB140;
@@ -12931,7 +12929,7 @@ header .nav-header {
 @media screen and (max-width: 1200px) {
   .reviews .slide1 .margin .reviews-text {
     width: 500px;
-    height: 500px;
+    height: auto;
   }
 }
 @media screen and (max-width: 991px) {
@@ -12960,20 +12958,23 @@ header .nav-header {
   }
 }
 .reviews .reviews-text h2:nth-child(1), .reviews .reviews-text .h2:nth-child(1) {
-  font-family: "TTCommons-DemiBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 .reviews .reviews-text h2:nth-child(2), .reviews .reviews-text .h2:nth-child(2) {
-  font-family: "TTCommons-ExtraBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   margin-bottom: 16px;
 }
 .reviews .reviews-text p {
-  font-family: "TTCommons-DemiBold", sans-serif;
-  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 110%;
 }
 @media screen and (max-width: 1200px) {
   .reviews .reviews-text p {
-    font-size: 19px;
+    font-size: 12px;
   }
 }
 .reviews .next-slider3 {
@@ -13185,10 +13186,72 @@ header .nav-header {
   display: none !important;
 }
 
+.where-buy {
+  background-color: #F2EDE6;
+  padding: 95px 0 100px;
+}
+@media screen and (max-width: 991px) {
+  .where-buy {
+    padding: 66px 0 100px;
+  }
+}
+.where-buy h4, .where-buy .h4 {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.where-buy .box-buy:nth-child(2) {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 991px) {
+  .where-buy .box-buy:nth-child(2) {
+    margin-bottom: 24px;
+  }
+}
+.where-buy .box-buy {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .where-buy .box-buy {
+    flex-direction: column;
+  }
+}
+.where-buy .box-buy .img-buy:nth-child(1) {
+  margin-right: 30px;
+}
+@media screen and (max-width: 991px) {
+  .where-buy .box-buy .img-buy:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
+.where-buy .img-buy {
+  width: 445px;
+  height: 201px;
+  background-color: #DFC8E1;
+  border-radius: 10px;
+}
+@media screen and (max-width: 991px) {
+  .where-buy .img-buy {
+    width: 73%;
+    height: 33vw;
+  }
+  .where-buy .img-buy a {
+    display: contents;
+  }
+  .where-buy .img-buy img {
+    width: 57%;
+    height: 79%;
+  }
+}
+
 footer {
   padding: 52px 0;
   background: #5C0029;
-  font-family: "TTCommons-DemiBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   font-size: 24px;
   line-height: 110%;
   color: white;

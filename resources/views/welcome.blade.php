@@ -55,13 +55,14 @@
                 <a href="#cellulose">польза</a>
                 <a href="#choose">твой вкус</a>
                 <a href="#reviews">В СТИЛЕ SMART</a>
+                <a href="#buy">ГДЕ КУПИТЬ</a>
             </div>
             <img alt="menu" class="menu-button" src="/img/hamburger.svg">
         </div>
     </header>
     <div class="mob-nav">
         <div class="margin">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center justify-content-between">
                     <img alt="Fruds" src="/img/logotop.png">
                 <div><img alt="close" class="menu-cross" src="/img/close.png"></div>
             </div>
@@ -70,6 +71,7 @@
                 <a href="#cellulose">польза</a>
                 <a href="#choose">твой вкус</a>
                 <a href="#reviews">В СТИЛЕ SMART</a>
+                <a href="#buy">ГДЕ КУПИТЬ</a>
             </div>
         </div>
     </div>
@@ -107,7 +109,7 @@ smart food</h1>
         <div class="margin block-margin">
             <div class="d-flex flex-column">
                 <div class="d-flex flex-column align-items-center block-arrow">
-                    <h3>Почему тебе
+                    <h3 class="mb-4">Почему тебе
 понравится FRUDS</h3>
                 </div>
                 <div class="d-flex align-items-center justify-content-between block-ul">
@@ -116,7 +118,7 @@ smart food</h1>
                         <ul>
                             <li class="d-flex align-items-start">FRUDS удобно брать с собой
 даже в самой маленькой сумке</li>
-                            <li class="d-flex align-items-start">Смузи идельно подойдут
+                            <li class="d-flex align-items-start">Смузи идеально подойдут
 для перекуса до или после
 тренировки</li>
                             <li class="d-flex align-items-start">Не придется тратить время
@@ -361,7 +363,7 @@ smart food</h1>
     <section class="comparison example-scroll">
         <div class="margin">
             <div class="d-flex flex-column">
-                <h4>fruds<span> vs</span> обычный перекус</h4>
+                <h4 class="mb-4">fruds<span> vs</span> обычный перекус</h4>
                 <div class="d-flex flex-column align-items-center advantages">
                     <div class="img-advantage">
                         <img alt="Fruds" src="/img/advantage (2).svg">
@@ -428,7 +430,7 @@ smart food</h1>
 {{--                                <img src="/img/pineapple.png">--}}
 {{--                                <img src="/img/pineapplemin.png">--}}
 {{--                                <img src="/img/goji.png">--}}
-                                <img alt="Fruds" src="/img/frame1.png">
+                                <img alt="Fruds" src="/img/frame11min.png">
                                 <div class="d-flex flex-column description">
 {{--                                    <div><img src="/img/wheat.png"></div>--}}
                                     <div class="d-flex flex-column wheat-desc">
@@ -498,7 +500,7 @@ smart food</h1>
 {{--                            <img src="/img/blueberry.png">--}}
 {{--                            <img src="/img/cheese.png">--}}
 {{--                            <img src="/img/wheat.png">--}}
-                            <img alt="Fruds" src="/img/frame2.png">
+                            <img alt="Fruds" src="/img/frame22min.png">
                             <div class="d-flex flex-column description">
 {{--                                <div><img src="/img/guarana.png"></div>--}}
                                 <div class="d-flex flex-column wheat-desc">
@@ -560,7 +562,7 @@ smart food</h1>
 {{--                                <img src="/img/banana.png">--}}
 {{--                                <img src="/img/blueberries.png">--}}
 {{--                                <img src="/img/cream.png">--}}
-                                <img alt="Fruds" src="/img/frame3.png">
+                                <img alt="Fruds" src="/img/frame33min.png">
                                 <div class="d-flex flex-column description">
 {{--                                    <div><img src="/img/goji.png"></div>--}}
                                     <div class="d-flex flex-column wheat-desc">
@@ -622,7 +624,7 @@ smart food</h1>
 {{--                                <img src="/img/peach.png">--}}
 {{--                                <img src="/img/mango.png">--}}
 {{--                                <img src="/img/chamomile.png">--}}
-                                <img alt="Fruds" src="/img/frame4.png">
+                                <img alt="Fruds" src="/img/frame44min.png">
 {{--                                <div class="d-flex flex-column wheat-desc chamomile">--}}
 {{--                                    <div></div>--}}
 {{--                                    <p>экстракт--}}
@@ -804,6 +806,36 @@ smart food</h1>
             </div>
 
     </section>
+    <section class="where-buy" id="buy">
+        <div class="d-flex flex-column align-items-center margin">
+            <h4>Ищи в магазинах твоего
+                города или закажи здесь!</h4>
+            <div class="d-flex box-buy">
+            <div class="d-flex align-items-center justify-content-center img-buy">
+                <a target="_blank" href="https://ostrov-shop.by/catalog/?q=fruds&s=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8">
+                    <img src="/img/img_buy.svg">
+                </a>
+            </div>
+                <div class="d-flex align-items-center justify-content-center img-buy">
+                    <a target="_blank" href="https://shop.green-market.by/catalog/bakaleya/fruktovaya-konservaciya/fruktovaya-konservaciya">
+                        <img src="/img/img_green.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex box-buy">
+                <div class="d-flex align-items-center justify-content-center img-buy">
+                    <a target="_blank" href="https://ecobar.by/eda/sladosti-i-sneki/poleznye-lakomstva/pyure-fruktovoe-grusha-yabloko-malina-fruds-150g-fruds">
+                        <img src="/img/img_ecobar.svg">
+                    </a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center img-buy">
+                    <a target="_blank" href="https://deal.by/p155224906-pyure-fruktovoe-grusha.html">
+                        <img src="/img/img_deal.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="d-flex flex-column justify-content-between align-items-center">
             <p>Связаться с нами:</p>
@@ -812,8 +844,6 @@ smart food</h1>
             </div>
         </div>
     </footer>
-
-
     <script src="/js/app.js"></script>
     </body>
 </html>
