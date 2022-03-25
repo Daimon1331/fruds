@@ -72,6 +72,13 @@ h4
     @media screen and (max-width: 540px)
         font-size: 20px!important
 
+h5
+    font-family: 'CourierNewPS-BoldMT', sans-serif
+    font-size: 15px
+    line-height: 110%
+    letter-spacing: 0.2px
+
+
 .header-scroll
     transform: translateY(-67px)
     @media screen and (max-width: 991px)
@@ -202,7 +209,6 @@ header
                 white-space: pre-wrap
                 padding: 33px 49px 20px
                 width: max-content
-                background: $taste
                 border-radius: 60px
                 margin-bottom: 20px
                 @media screen and (max-width: 740px)
@@ -307,6 +313,8 @@ header
         height: min-content
         @media screen and (max-width: 740px)
             width: 100%
+            padding-bottom: 62px
+        @media screen and (max-width: 540px)
             padding-bottom: 22px
         p
             padding: 73px 0 8px
@@ -367,7 +375,7 @@ header
                 height: 100%!important
                 z-index: 1
                 @media screen and (max-width: 540px)
-                    width: 98px
+                    width: 132px
             & img:nth-child(2)
                 position: relative
                 top: 0
@@ -376,8 +384,8 @@ header
                 height: 100%!important
                 transform: rotate(9deg)
                 @media screen and (max-width: 540px)
-                    width: 98px
-                    left: -33px
+                    width: 132px
+                    left: -42px
                     top: 27px
         & div:nth-child(2)
             z-index: 1
@@ -388,7 +396,7 @@ header
             @media screen and (max-width: 740px)
                 width: 100%
             @media screen and (max-width: 540px)
-                margin-top: -56px
+                margin-top: -86px
             p
                 font-weight: 800
                 font-size: 96px
@@ -432,7 +440,7 @@ header
     background: $back
     padding: 142px 0 100px
     @media screen and (max-width: 991px)
-        padding-top: 35px
+        padding: 35px 0 0
     .margin
         .slick-prev-slider1-mob, .slick-next-slider1-mob
             display: none!important
@@ -1006,6 +1014,14 @@ header
                     button
                         border: 6px solid $yellow
                         background: $green
+                .slick-active:nth-child(5)
+                    button
+                        border: 6px solid $green
+                        background: $red2
+                .slick-active:nth-child(6)
+                    button
+                        border: 6px solid $purple2
+                        background: $red
                 li
                     list-style: none
                     button
@@ -1111,7 +1127,7 @@ header
                     z-index: 1
                     width: 146px
                     height: auto
-            .description
+            .description, .description_2
                 position: absolute
                 top: 515px
                 left: 0
@@ -1150,6 +1166,16 @@ header
                     font-size: 12px
                     @media screen and (max-width: 540px)
                         font-size: 7px
+            .description_2
+                top: 412px
+                left: 450px
+                @media screen and (max-width: 540px)
+                    top: 225px
+                    left: 270px
+                .wheat-desc
+                    div
+                        margin-left: 42px
+                        transform: rotate(-37deg)
 
     .back-structure
         background: $pink
@@ -1187,7 +1213,7 @@ header
                 top: auto
                 //display: none!important
             h2
-                margin-top: 10px
+                //margin-top: 10px
                 color: white
                 @media screen and (max-width: 991px)
                     font-size: 14px
@@ -1196,6 +1222,7 @@ header
             width: 368px
             margin: 83px 0 0 305px
             color: $red
+            background: transparent
             @media screen and (max-width: 1200px)
                 margin: 125px 0 0 290px
                 width: 240px
@@ -1204,7 +1231,7 @@ header
                 align-items: center
                 width: 100%
             h2
-                margin-bottom: 28px
+                min-height: 107px
                 @media screen and (max-width: 1200px)
                     font-size: 17px
                 @media screen and (max-width: 991px)
@@ -1245,9 +1272,8 @@ header
                     font-weight: 400
                     margin-left: 22px
     .box-slider2
-        .slide1, .slide2, .slide3, .slide4
+        .slide1, .slide2, .slide3, .slide4, .slide5, .slide6
             @media screen and (max-width: 991px)
-
                 margin: 160px 0 15px
                 display: flex!important
                 flex-direction: column
@@ -1319,6 +1345,53 @@ header
                         border-bottom: 1px solid $taste
             .massa
                 background: $green
+        .slide5
+            @media screen and (max-width: 991px)
+                background: $green
+            .chamomile
+                z-index: 2
+                position: absolute
+                right: -34px
+                top: 433px
+                div
+                    transform: rotate(-36deg)
+            .next-slider2
+                background-color: $red2
+            .big-img
+                .apple-radius
+                    background: $red2
+            .back-structure
+                background: $green
+            .structure
+                color: white
+                .gramm
+                    div
+                        border-bottom: 1px solid white
+            .massa
+                background: $taste
+        .slide6
+            @media screen and (max-width: 991px)
+                background: $red2
+            .chamomile
+                z-index: 2
+                position: absolute
+                right: -34px
+                top: 433px
+                div
+                    transform: rotate(-36deg)
+            .next-slider2
+                background-color: $purple2
+                .apple-radius
+                    background: $purple2
+            .back-structure
+                background: $red2
+            .structure
+                color: white
+                .gramm
+                    div
+                        border-bottom: 1px solid white
+            .massa
+                background: $taste
 
 .slide2, .slide3, .slide4
     .big-img
@@ -1678,3 +1751,56 @@ footer
                 transform: rotate(0)
             to
                 transform: rotate(365deg)
+
+.novelty
+    overflow: hidden
+    position: relative
+    background-image: url("/img/back_novelity.jpg")
+    @media screen and (max-width: 991px)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    @media screen and (max-width: 991px)
+        background: -webkit-linear-gradient(180deg, rgb(222, 225, 164) 50%, rgb(255, 209, 209) 50%)
+        background: -moz-linear-gradient(180deg, rgb(222, 225, 164) 50%, rgb(255, 209, 209) 50%)
+        background: linear-gradient(180deg, rgb(222, 225, 164) 50%, rgb(255, 209, 209) 50%)
+        @media screen and (max-width: 540px)
+            background: -webkit-linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+            background: -moz-linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+            background: linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+    .ribbon-novelty
+        padding: 18px 0
+        background: $taste
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        h3
+            color: $header
+            width: max-content
+    .row
+        align-items: center
+        padding: 160px 0 80px
+        @media screen and (max-width: 991px)
+            padding: 100px 0 34px
+        .ribbon-novelty
+            max-width: none
+            width: max-content
+            margin: 35px 0
+        .fruds-energy
+            margin-bottom: 30px
+            @media screen and (max-width: 991px)
+                margin-bottom: 12px
+            h4
+                text-align: center
+                @media screen and (max-width: 991px)
+                    font-size: 40px!important
+            h4.green
+                color: $green
+            h4.red
+                color: $red
+            h5
+                color: $taste
+        .img-novelty
+            width: fit-content
+            margin: auto
+            margin-bottom: 10px

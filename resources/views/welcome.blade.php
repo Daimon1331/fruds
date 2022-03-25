@@ -411,6 +411,59 @@ smart food</h1>
             </div>
         </div>
     </section>
+    <section class="novelty">
+        <div class="ribbon-novelty position-absolute">
+            <h3>НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА</h3>
+        </div>
+        <div class="margin">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="fruds-energy">
+                        <h4>FRUDS</h4>
+                        <h4 class="green">ENERGY</h4>
+                    </div>
+                    <div class="d-block d-lg-none img-novelty">
+                        <img alt="Fruds" src="/img/novelty_mob_1.png">
+                    </div>
+                    <h5 class="text-center">Ты точно оценишь это яркое сочетание фруктов, ягод,
+                        суперфудов и пряностей!
+                        <br>
+                        <br>Новинка от FRUDS подойдет тем, кто хочет быть более продуктивным и
+                        меньше уставать в течение дня!
+                        <br>
+                        <br>В состав входят гуарана, имбирь и экстракт лимонника, которые
+                        являются природными энергетиками. Держи ритм, перекуси FRUDS!</h5>
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                    <img alt="Fruds" src="/img/novelty_1.png">
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                    <img alt="Fruds" src="/img/novelty_2.png">
+                </div>
+                <div class="d-block d-lg-none ribbon-novelty">
+                    <h3>НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА</h3>
+                </div>
+                <div class="col-lg-3">
+                    <div class="fruds-energy">
+                        <h4>FRUDS</h4>
+                        <h4 class="red">IMUNO</h4>
+                    </div>
+                    <div class="d-block d-lg-none img-novelty">
+                        <img alt="Fruds" src="/img/novelty_mob_2.png">
+                    </div>
+                    <h5 class="text-center">Это новый фруктово-ягодный вкус с добавлением
+                        ингредиентов, укрепляющих иммунитет! Добавь в свой рацион эхинацею,
+                        клюкву, шалфей и ягоды асаи, позаботься о себе вместе с FRUDS.
+                        <br>
+                        <br>Сделать свое питание полезнее для иммунитета стало еще проще
+                        вместе с SMART-смузи FRUDS. Бери с собой и устрой перекус
+                        в любом месте!
+                    </h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <section class="choose example-scroll">
         <div class="margin" id="choose">
             <h4>выбери свой вкус</h4>
@@ -449,7 +502,6 @@ smart food</h1>
 
                             </div>
                             <img alt="Fruds" id="fruct1" class="fruct" src="/img/fruct1.png">
-
                 </div>
                 <div class="back-structure">
                     <div class="d-flex justify-content-center align-items-center massa">
@@ -488,7 +540,7 @@ smart food</h1>
             </div>
 
             </div>
-                <div class="slide2 position-relative">
+                    <div class="slide2 position-relative">
                     <button class="next-slider2" aria-label="Next" type="button"></button>
                     <div class="position-relative big-img" id="big-img2">
 
@@ -682,6 +734,156 @@ smart food</h1>
                             </div>
                             </p>
                         </div>
+                    </div>
+                    <div class="slide5 position-relative">
+                        <button class="next-slider2" aria-label="Next" type="button"></button>
+                        <div class="position-relative big-img" id="big-img1">
+
+                            <button data-id="5" class="apple-radius">
+                                <img alt="Fruds" id="applesvg5" src="/img/applesvg.svg">
+                                <img alt="Fruds" id="bottlesvg5" class="bottlesvg" src="/img/bottlesvg.svg">
+                            </button>
+                            <div class="position-relative w-100 h-100 img-position" id="img-hide5">
+                                <img alt="Fruds" src="/img/frame55min.png">
+                                <div class="d-flex flex-column description">
+                                    <div class="d-flex flex-column wheat-desc">
+                                        <div></div>
+                                        <p>экстракт
+                                            <br>гуараны</p>
+                                        <p>является
+                                            <br>натуральным
+                                            <br>природным
+                                            <br>энергетиком
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column description_2">
+                                    <div class="d-flex flex-column wheat-desc">
+                                        <div></div>
+                                        <p>имбирь и
+                                            <br>лимонник</p>
+                                        <p>обладают
+                                            <br>тонизирующими
+                                            <br>свойствами
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <img alt="Fruds" id="fruct5" class="fruct" src="/img/fruct5.png">
+                        </div>
+                        <div class="back-structure">
+                            <div class="d-flex justify-content-center align-items-center massa">
+                                <h2>150 г</h2>
+                            </div>
+                            <div class="d-flex flex-column structure">
+                                <h2>Киви, крыжовник,
+                                    <br>яблоко, груша, виноград,
+                                    <br>экстракт гуараны, имбирь,
+                                    <br>экстракт лимонника</h2>
+                                <div class="d-flex flex-column gramm">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Белки</p>
+                                        <p>1,0 г</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Жиры</p>
+                                        <p>0,4 г</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Углеводы</p>
+                                        <p>12,0 г</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Инулин</p>
+                                        <p>1,5 г</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between energy">
+                                    <p>Энергетическая
+                                        <br>ценность</p>
+                                    <p>250 кДж/
+                                        <br>60 Ккалл</p>
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="slide6 position-relative">
+                        <button class="next-slider2" aria-label="Next" type="button"></button>
+                        <div class="position-relative big-img" id="big-img6">
+
+                            <button data-id="6" class="apple-radius">
+                                <img alt="Fruds" id="applesvg6" src="/img/applesvg.svg">
+                                <img alt="Fruds" id="bottlesvg6" class="bottlesvg" src="/img/bottlesvg.svg">
+                            </button>
+                            <div class="position-relative w-100 h-100 img-position" id="img-hide6">
+                                <img alt="Fruds" src="/img/frame66min.png">
+                                <div class="d-flex flex-column description">
+                                    <div class="d-flex flex-column wheat-desc">
+                                        <div></div>
+                                        <p>эхинацея
+                                            <br>и шалфей</p>
+                                        <p>помогают
+                                            <br>укреплять
+                                            <br>иммунную
+                                            <br>систему
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column description_2">
+                                    <div class="d-flex flex-column wheat-desc">
+                                        <div></div>
+                                        <p>клюква
+                                            <br>и ягоды
+                                            <br>асаи</p>
+                                        <p>имеют высокое
+                                            <br>содержание
+                                            <br>антиоксидантов
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="Fruds" id="fruct6" class="fruct" src="/img/fruct6.png">
+                        </div>
+                        <div class="back-structure">
+                            <div class="d-flex justify-content-center align-items-center massa">
+                                <h2>150 г</h2>
+                            </div>
+                            <div class="d-flex flex-column structure">
+                                <h2>Клубника,  ежевика,
+                                    <br>яблоко, груша, клюква,
+                                    <br>ягоды асаи, экстракт
+                                    <br>шалфея, экстракт эхинацеи</h2>
+                                <div class="d-flex flex-column gramm">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Белки</p>
+                                        <p>1,0 г</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Жиры</p>
+                                        <p>0,5 г</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Углеводы</p>
+                                        <p>9,5 г</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Инулин</p>
+                                        <p>1,5 г</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between energy">
+                                    <p>Энергетическая
+                                        <br>ценность</p>
+                                    <p>210 кДж/
+                                        <br>60 Ккалл</p>
+                                </div>
+                            </div>
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
