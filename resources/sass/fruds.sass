@@ -1176,7 +1176,6 @@ header
                     div
                         margin-left: 42px
                         transform: rotate(-37deg)
-
     .back-structure
         background: $pink
         width: 860px
@@ -1371,7 +1370,7 @@ header
                 background: $taste
         .slide6
             @media screen and (max-width: 991px)
-                background: $red2
+                background: $red
             .chamomile
                 z-index: 2
                 position: absolute
@@ -1381,10 +1380,11 @@ header
                     transform: rotate(-36deg)
             .next-slider2
                 background-color: $purple2
+            .big-img
                 .apple-radius
                     background: $purple2
             .back-structure
-                background: $red2
+                background: $red
             .structure
                 color: white
                 .gramm
@@ -1753,6 +1753,7 @@ footer
                 transform: rotate(365deg)
 
 .novelty
+    margin: 70px 0
     overflow: hidden
     position: relative
     background-image: url("/img/back_novelity.jpg")
@@ -1763,17 +1764,23 @@ footer
     @media screen and (max-width: 991px)
         background: -webkit-linear-gradient(180deg, rgb(222, 225, 164) 50%, rgb(255, 209, 209) 50%)
         background: -moz-linear-gradient(180deg, rgb(222, 225, 164) 50%, rgb(255, 209, 209) 50%)
-        background: linear-gradient(180deg, rgb(222, 225, 164) 50%, rgb(255, 209, 209) 50%)
-        @media screen and (max-width: 540px)
-            background: -webkit-linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
-            background: -moz-linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
-            background: linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+        background: linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+    @media screen and (max-width: 540px)
+        background: -webkit-linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+        background: -moz-linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
+        background: linear-gradient(180deg, rgb(222, 225, 164) 52%, rgb(255, 209, 209) 50%)
     .ribbon-novelty
         padding: 18px 0
         background: $taste
         top: 0
-        left: 50%
-        transform: translateX(-50%)
+        left: 0
+        //transform: translateX(-50%)
+        animation: runningLineAnimationReversed 24s linear infinite
+        @keyframes runningLineAnimationReversed
+            0%
+                transform: translateX(0)
+            to
+                transform: translateX(-50%)
         h3
             color: $header
             width: max-content
@@ -1798,9 +1805,9 @@ footer
                 color: $green
             h4.red
                 color: $red
-            h5
-                color: $taste
+        h5
+            color: $taste
         .img-novelty
             width: fit-content
             margin: auto
-            margin-bottom: 10px
+            margin-bottom: 20px

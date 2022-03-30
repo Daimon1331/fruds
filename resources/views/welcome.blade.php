@@ -105,6 +105,58 @@ smart food</h1>
             </div>
         </div>
     </section>
+    <section class="novelty">
+        <div class="ribbon-novelty position-absolute">
+            <h3>НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА</h3>
+        </div>
+        <div class="margin">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="fruds-energy">
+                        <h4>FRUDS</h4>
+                        <h4 class="green">ENERGY</h4>
+                    </div>
+                    <div class="d-block d-lg-none img-novelty">
+                        <img alt="Fruds" src="/img/novelty_mob_1.png">
+                    </div>
+                    <h5 class="text-center">Ты точно оценишь это яркое сочетание фруктов, ягод,
+                        суперфудов и&nbsp;пряностей!
+                        <br>
+                        <br>Новинка от FRUDS подойдет тем, кто хочет быть более продуктивным и
+                        &nbsp;меньше уставать в&nbsp;течение дня!
+                        <br>
+                        <br>В состав входят гуарана, имбирь и&nbsp;экстракт лимонника, которые
+                        являются природными энергетиками. Держи ритм, перекуси FRUDS!</h5>
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                    <img alt="Fruds" src="/img/novelty_1.png">
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                    <img alt="Fruds" src="/img/novelty_2.png">
+                </div>
+                <div class="d-block d-lg-none ribbon-novelty">
+                    <h3>НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА</h3>
+                </div>
+                <div class="col-lg-3">
+                    <div class="fruds-energy">
+                        <h4>FRUDS</h4>
+                        <h4 class="red">IMUNO</h4>
+                    </div>
+                    <div class="d-block d-lg-none img-novelty">
+                        <img alt="Fruds" src="/img/novelty_mob_2.png">
+                    </div>
+                    <h5 class="text-center">Это новый фруктово-ягодный вкус с&nbsp;добавлением
+                        ингредиентов, укрепляющих иммунитет! Добавь в&nbsp;свой рацион эхинацею,
+                        клюкву, шалфей и&nbsp;ягоды асаи, позаботься о&nbsp;себе вместе с&nbsp;FRUDS.
+                        <br>
+                        <br>Сделать свое питание полезнее для иммунитета стало еще проще
+                        вместе с&nbsp;SMART-смузи FRUDS. Бери с&nbsp;собой и&nbsp;устрой перекус
+                        в&nbsp;любом месте!
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="smartandfood example-scroll"  id="smartandfood">
         <div class="margin block-margin">
             <div class="d-flex flex-column">
@@ -409,59 +461,6 @@ smart food</h1>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="novelty">
-        <div class="ribbon-novelty position-absolute">
-            <h3>НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА</h3>
-        </div>
-        <div class="margin">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="fruds-energy">
-                        <h4>FRUDS</h4>
-                        <h4 class="green">ENERGY</h4>
-                    </div>
-                    <div class="d-block d-lg-none img-novelty">
-                        <img alt="Fruds" src="/img/novelty_mob_1.png">
-                    </div>
-                    <h5 class="text-center">Ты точно оценишь это яркое сочетание фруктов, ягод,
-                        суперфудов и пряностей!
-                        <br>
-                        <br>Новинка от FRUDS подойдет тем, кто хочет быть более продуктивным и
-                        меньше уставать в течение дня!
-                        <br>
-                        <br>В состав входят гуарана, имбирь и экстракт лимонника, которые
-                        являются природными энергетиками. Держи ритм, перекуси FRUDS!</h5>
-                </div>
-                <div class="d-none d-lg-block col-lg-3">
-                    <img alt="Fruds" src="/img/novelty_1.png">
-                </div>
-                <div class="d-none d-lg-block col-lg-3">
-                    <img alt="Fruds" src="/img/novelty_2.png">
-                </div>
-                <div class="d-block d-lg-none ribbon-novelty">
-                    <h3>НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА  НОВИНКА</h3>
-                </div>
-                <div class="col-lg-3">
-                    <div class="fruds-energy">
-                        <h4>FRUDS</h4>
-                        <h4 class="red">IMUNO</h4>
-                    </div>
-                    <div class="d-block d-lg-none img-novelty">
-                        <img alt="Fruds" src="/img/novelty_mob_2.png">
-                    </div>
-                    <h5 class="text-center">Это новый фруктово-ягодный вкус с добавлением
-                        ингредиентов, укрепляющих иммунитет! Добавь в свой рацион эхинацею,
-                        клюкву, шалфей и ягоды асаи, позаботься о себе вместе с FRUDS.
-                        <br>
-                        <br>Сделать свое питание полезнее для иммунитета стало еще проще
-                        вместе с SMART-смузи FRUDS. Бери с собой и устрой перекус
-                        в любом месте!
-                    </h5>
-                </div>
-            </div>
-
         </div>
     </section>
     <section class="choose example-scroll">
@@ -815,8 +814,8 @@ smart food</h1>
                         <div class="position-relative big-img" id="big-img6">
 
                             <button data-id="6" class="apple-radius">
-                                <img alt="Fruds" id="applesvg6" src="/img/applesvg.svg">
-                                <img alt="Fruds" id="bottlesvg6" class="bottlesvg" src="/img/bottlesvg.svg">
+                                <img alt="Fruds" id="applesvg6" src="/img/applesvg2.svg">
+                                <img alt="Fruds" id="bottlesvg6" class="bottlesvg" src="/img/bottlesvg2.svg">
                             </button>
                             <div class="position-relative w-100 h-100 img-position" id="img-hide6">
                                 <img alt="Fruds" src="/img/frame66min.png">
@@ -878,7 +877,7 @@ smart food</h1>
                                     <p>Энергетическая
                                         <br>ценность</p>
                                     <p>210 кДж/
-                                        <br>60 Ккалл</p>
+                                        <br>50 Ккалл</p>
                                 </div>
                             </div>
                             </p>

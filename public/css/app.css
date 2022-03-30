@@ -12864,7 +12864,7 @@ header .nav-header {
 }
 @media screen and (max-width: 991px) {
   .choose .box-slider2 .slide6 {
-    background: #DA3716;
+    background: #D7133D;
   }
 }
 .choose .box-slider2 .slide6 .chamomile {
@@ -12879,11 +12879,11 @@ header .nav-header {
 .choose .box-slider2 .slide6 .next-slider2 {
   background-color: #D29DD7;
 }
-.choose .box-slider2 .slide6 .next-slider2 .apple-radius {
+.choose .box-slider2 .slide6 .big-img .apple-radius {
   background: #D29DD7;
 }
 .choose .box-slider2 .slide6 .back-structure {
-  background: #DA3716;
+  background: #D7133D;
 }
 .choose .box-slider2 .slide6 .structure {
   color: white;
@@ -13396,6 +13396,7 @@ footer a:hover {
 }
 
 .novelty {
+  margin: 70px 0;
   overflow: hidden;
   position: relative;
   background-image: url("/img/back_novelity.jpg");
@@ -13405,10 +13406,10 @@ footer a:hover {
 }
 @media screen and (max-width: 991px) {
   .novelty {
-    background: linear-gradient(180deg, #dee1a4 50%, #ffd1d1 50%);
+    background: linear-gradient(180deg, #dee1a4 52%, #ffd1d1 50%);
   }
 }
-@media screen and (max-width: 991px) and (max-width: 540px) {
+@media screen and (max-width: 540px) {
   .novelty {
     background: linear-gradient(180deg, #dee1a4 52%, #ffd1d1 50%);
   }
@@ -13417,8 +13418,25 @@ footer a:hover {
   padding: 18px 0;
   background: #5C0029;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  -webkit-animation: runningLineAnimationReversed 24s linear infinite;
+          animation: runningLineAnimationReversed 24s linear infinite;
+}
+@-webkit-keyframes runningLineAnimationReversed {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes runningLineAnimationReversed {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 .novelty .ribbon-novelty h3, .novelty .ribbon-novelty .h3 {
   color: #DFC8E1;
@@ -13464,7 +13482,7 @@ footer a:hover {
 .novelty .row .fruds-energy h4.red, .novelty .row .fruds-energy .red.h4 {
   color: #D7133D;
 }
-.novelty .row .fruds-energy h5, .novelty .row .fruds-energy .h5 {
+.novelty .row h5, .novelty .row .h5 {
   color: #5C0029;
 }
 .novelty .row .img-novelty {
@@ -13472,7 +13490,7 @@ footer a:hover {
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Slider */
