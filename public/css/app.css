@@ -13297,13 +13297,16 @@ header .nav-header {
   text-align: center;
   text-transform: uppercase;
 }
-.where-buy .box-buy:nth-child(2) {
+.where-buy .box-buy {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 991px) {
-  .where-buy .box-buy:nth-child(2) {
+  .where-buy .box-buy {
     margin-bottom: 24px;
   }
+}
+.where-buy .box-buy:last-child {
+  margin-bottom: 0;
 }
 .where-buy .box-buy {
   width: 100%;
