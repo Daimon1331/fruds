@@ -1011,49 +1011,43 @@ smart food</h1>
         <div class="d-flex flex-column align-items-center margin">
             <h4>Ищи в магазинах твоего
                 города или закажи здесь!</h4>
-            <div class="d-flex box-buy">
-                <div class="d-flex align-items-center justify-content-center img-buy">
+            <div class="box-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://ecobar.by/eda/sladosti-i-sneki/poleznye-lakomstva/pyure-fruktovoe-grusha-yabloko-malina-fruds-150g-fruds">
                         <img src="/img/img_ecobar.svg">
                     </a>
                 </div>
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://shop.green-market.by/catalog/bakaleya/fruktovaya-konservaciya/fruktovaya-konservaciya">
                         <img src="/img/img_green.svg">
                     </a>
                 </div>
-            </div>
-            <div class="d-flex box-buy">
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://ecobar.by/eda/sladosti-i-sneki/poleznye-lakomstva/pyure-fruktovoe-grusha-yabloko-malina-fruds-150g-fruds">
                         <img src="/img/img_emall.svg">
                     </a>
                 </div>
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://deal.by/p155224906-pyure-fruktovoe-grusha.html">
                         <img src="/img/img_p24.svg">
                     </a>
                 </div>
-            </div>
-            <div class="d-flex box-buy">
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://ecobar.by/eda/sladosti-i-sneki/poleznye-lakomstva/pyure-fruktovoe-grusha-yabloko-malina-fruds-150g-fruds">
                         <img src="/img/img_ozon.svg">
                     </a>
                 </div>
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://deal.by/p155224906-pyure-fruktovoe-grusha.html">
                         <img src="/img/img_yandex.svg">
                     </a>
                 </div>
-            </div>
-            <div class="d-flex box-buy">
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://ecobar.by/eda/sladosti-i-sneki/poleznye-lakomstva/pyure-fruktovoe-grusha-yabloko-malina-fruds-150g-fruds">
                         <img src="/img/img_gippo.svg">
                     </a>
                 </div>
-                <div class="d-flex align-items-center justify-content-center img-buy">
+                <div class="img-buy">
                     <a target="_blank" href="https://deal.by/p155224906-pyure-fruktovoe-grusha.html">
                         <img src="/img/img_fixprice.svg">
                     </a>
